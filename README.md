@@ -16,6 +16,18 @@
 
 </div>
 
+## quickstart
+
+```bash
+git clone https://github.com/rodenlab/hybrid001.git
+cd hybrid001
+npx tsx src/cli.ts --experiment baseline --trials 100
+```
+
+see [ARCHITECTURE.md](ARCHITECTURE.md) for codebase structure. see [CONTRIBUTING.md](CONTRIBUTING.md) for how to add neurons and experiments.
+
+---
+
 ## the question
 
 > can circuits from two different species be computationally interfaced to produce a functioning hybrid system?
@@ -127,37 +139,51 @@ see [EXPERIMENTS.md](EXPERIMENTS.md) for full protocols.
 
 ```
 hybrid001/
-├── engine.ts                # LIF simulation engine
-├── connectome.ts            # neuron + synapse definitions
-├── METHODS.md               # model equations and parameters
-├── EXPERIMENTS.md            # four experimental protocols
-├── BRIDGE.md                # bridge layer design rationale
-├── HYPOTHESIS.md            # formal predictions
-├── READING.md               # full bibliography
-├── ORGANISMS.md             # C. elegans vs Drosophila comparison
+├── src/
+│   ├── types.ts             # shared type definitions
+│   ├── connectome.ts        # neuron + synapse definitions (standalone)
+│   ├── engine.ts            # LIF engine (standalone, no browser deps)
+│   ├── analysis.ts          # statistical utilities
+│   ├── correlation.ts       # cross-correlation analysis
+│   ├── raster.ts            # spike raster data generation
+│   └── cli.ts               # command-line interface
+├── engine.ts                # LIF engine (site version)
+├── connectome.ts            # connectome (site version)
 ├── data/
 │   ├── neurons.json         # structured neuron data
 │   ├── synapses.json        # connection summary
-│   ├── parameters.json      # simulation constants
+│   ├── parameters.json      # simulation constants + plasticity
+│   ├── bridge_parameters.md # bridge layer rationale
 │   ├── worm_neurons.txt     # C. elegans neuron selection
 │   ├── fly_neurons.txt      # Drosophila neuron selection
 │   ├── worm_synapses.txt    # worm adjacency (Varshney 2011)
 │   ├── fly_synapses.txt     # fly adjacency (Schlegel 2024)
 │   └── bridge_synapses.txt  # bridge wiring (this work)
+├── experiments/
+│   ├── run.ts               # visual pipeline runner
+│   ├── runner.ts            # headless experiment runner
+│   └── protocols/           # experiment config files (JSON)
 ├── scripts/
-│   ├── run_baseline.py      # experiment 1
-│   ├── run_coherence.py     # experiment 2
-│   ├── run_learning.py      # experiment 3
-│   └── run_conflict.py      # experiment 4
+│   ├── run_baseline.py      # experiment 1 analysis
+│   ├── run_coherence.py     # experiment 2 analysis
+│   ├── run_learning.py      # experiment 3 analysis
+│   ├── run_conflict.py      # experiment 4 analysis
+│   └── analyze_results.py   # master analysis script
 ├── paper/
 │   ├── proposal.html        # report 1: architecture proposal
 │   ├── paper2.html          # report 2: baseline characterization
 │   ├── paper3.html          # report 3: learning and conflict
 │   └── paper4.html          # report 4: computational scaling
-├── experiments/
-│   ├── run.ts               # visual pipeline runner
-│   └── runner.ts            # headless experiment runner
-└── results/                 # output (generated)
+├── results/                 # experiment output
+├── ARCHITECTURE.md          # codebase structure guide
+├── CHANGELOG.md             # version history
+├── CONTRIBUTING.md          # how to contribute
+├── METHODS.md               # model equations and parameters
+├── EXPERIMENTS.md           # four experimental protocols
+├── BRIDGE.md                # bridge layer design rationale
+├── HYPOTHESIS.md            # formal predictions
+├── READING.md               # full bibliography
+└── ORGANISMS.md             # C. elegans vs Drosophila comparison
 ```
 
 ---
