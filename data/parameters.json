@@ -13,23 +13,19 @@
     "bridge": 5,
     "electrical": 0.5
   },
+  "plasticity": {
+    "enabled": false,
+    "rate": 0.05,
+    "cap_multiplier": 2.0,
+    "co_activation_window_ms": 50,
+    "gating_neuron": "DAN2",
+    "target_synapses": "KC-MBON",
+    "model": "DAN-gated hebbian (Hige et al. 2015)"
+  },
   "stimulus_pathways": {
-    "chemotaxis": [
-      "ASEL",
-      "ASER",
-      "AWCL",
-      "AWCR"
-    ],
-    "nociception": [
-      "ASHL",
-      "ASHR"
-    ],
-    "thermal": [
-      "AFDL",
-      "AFDR"
-    ],
-    "reward": [
-      "DAN2"
-    ]
+    "chemotaxis": ["ASEL", "ASER", "AWCL", "AWCR"],
+    "nociception": ["ASHL", "ASHR"],
+    "thermal": ["AFDL", "AFDR"],
+    "reward": ["DAN2"]
   }
 }
