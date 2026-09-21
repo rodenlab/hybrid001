@@ -1,0 +1,40 @@
+{
+  "experiment": "baseline",
+  "config": { "trials": 200, "seed": 42, "duration": 10000 },
+  "conditions": {
+    "worm_only": {
+      "system": "worm", "bridge": false,
+      "mean_total": 412.3, "std_total": 48.7,
+      "mean_fwd": 67.2, "mean_rev": 34.8,
+      "mean_selectivity": 1.98, "std_selectivity": 0.41
+    },
+    "fly_only": {
+      "system": "fly", "bridge": false,
+      "mean_total": 389.6, "std_total": 52.3
+    },
+    "hybrid": {
+      "system": "hybrid", "bridge": true,
+      "mean_total": 987.4, "std_total": 89.2,
+      "mean_fwd": 102.1, "mean_rev": 52.9,
+      "mean_selectivity": 1.97, "std_selectivity": 0.38,
+      "mean_bridge": 47.3, "std_bridge": 8.9,
+      "motor_rate_increase_pct": 52.0,
+      "motor_rate_p_value": 0.00003,
+      "interneuron_rate_increase_pct": 23.5,
+      "interneuron_rate_p_value": 0.0041
+    }
+  },
+  "cross_correlation": {
+    "worm_motor_fly_mbon_peak_lag_ms": 15.2,
+    "peak_correlation": 0.34,
+    "lag_range_ms": [12, 18],
+    "bridge_off_correlation": 0.02
+  },
+  "null_hypothesis": {
+    "expected_superposition": 801.9,
+    "observed_hybrid": 987.4,
+    "t_statistic": 8.73,
+    "p_value": 0.000001,
+    "rejected": true
+  }
+}

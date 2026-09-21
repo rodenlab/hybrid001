@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 .env
-results/*.json
+results/*.tmp.json
 !results/.gitkeep
 .DS_Store
