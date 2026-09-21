@@ -1,0 +1,13 @@
+{
+  "name": "sensorimotor coherence",
+  "hypothesis": "fly circuits increase sensorimotor selectivity",
+  "conditions": [
+    { "system": "worm", "bridge": false, "stimulus": "chemotaxis" },
+    { "system": "hybrid", "bridge": true, "stimulus": "chemotaxis" }
+  ],
+  "duration": 2000,
+  "trials": 200,
+  "stimulus_strength": 30,
+  "spontaneous_rate": 0.08,
+  "plasticity": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "baseline activity",
+  "hypothesis": "hybrid activity is not a simple superposition of worm + fly",
+  "conditions": [
+    { "system": "worm", "bridge": false, "stimulus": "none" },
+    { "system": "fly", "bridge": false, "stimulus": "none" },
+    { "system": "hybrid", "bridge": true, "stimulus": "none" }
+  ],
+  "duration": 10000,
+  "trials": 200,
+  "stimulus_strength": 30,
+  "spontaneous_rate": 0.08,
+  "plasticity": false
+}

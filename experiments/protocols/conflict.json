@@ -1,0 +1,16 @@
+{
+  "name": "cross-species conflict",
+  "hypothesis": "hybrid produces novel conflict resolution behavior",
+  "conditions": [
+    { "system": "worm", "bridge": false, "stimulus": "nociception" },
+    { "system": "hybrid", "bridge": true, "stimulus": "nociception" },
+    { "system": "hybrid", "bridge": true, "stimulus": "reward" },
+    { "system": "hybrid", "bridge": true, "stimulus": "conflict" },
+    { "system": "hybrid", "bridge": false, "stimulus": "conflict" }
+  ],
+  "duration": 2000,
+  "trials": 200,
+  "stimulus_strength": 35,
+  "spontaneous_rate": 0.08,
+  "plasticity": false
+}

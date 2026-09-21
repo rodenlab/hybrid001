@@ -3,7 +3,7 @@
 // hybrid #001 — neural computation pipeline
 // ═══════════════════════════════════════════════════════════════
 
-import { buildConnectome, type Neuron, type Synapse } from '../src/simulation/connectome'
+import { buildConnectome, type Neuron, type Synapse } from '../src/connectome'
 
 const V_REST = -70, V_PEAK = 40, TAU = 20, DT = 0.5, STEPS = 4
 const FORWARD = ['DB1','DB2','VB1','VB2'], REVERSE = ['DA1','VA1']

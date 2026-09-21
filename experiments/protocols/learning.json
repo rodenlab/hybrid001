@@ -1,0 +1,17 @@
+{
+  "name": "associative learning",
+  "hypothesis": "bridge enables cross-species hebbian plasticity",
+  "conditions": [
+    { "system": "hybrid", "bridge": true, "stimulus": "chemotaxis" }
+  ],
+  "duration": 1000,
+  "trials": 50,
+  "conditioning_trials": 50,
+  "test_trials": 20,
+  "stimulus_strength": 30,
+  "spontaneous_rate": 0.08,
+  "plasticity": true,
+  "plasticity_rate": 0.05,
+  "plasticity_cap": 2.0,
+  "cs_us_interval_ms": 200
+}

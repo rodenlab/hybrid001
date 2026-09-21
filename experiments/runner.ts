@@ -5,7 +5,7 @@
 // Usage: npx tsx runner.ts --experiment baseline --trials 500
 // ═══════════════════════════════════════════════════════════════
 
-import { buildConnectome, type Neuron, type Synapse } from '../src/simulation/connectome'
+import { buildConnectome, type Neuron, type Synapse } from '../src/connectome'
 import { writeFileSync, mkdirSync } from 'fs'
 import { dirname } from 'path'
 

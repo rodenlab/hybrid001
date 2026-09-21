@@ -1,0 +1,13 @@
+{
+  "name": "bridge ablation",
+  "hypothesis": "bridge removal eliminates cross-species effects",
+  "conditions": [
+    { "system": "hybrid", "bridge": true, "stimulus": "chemotaxis" },
+    { "system": "hybrid", "bridge": false, "stimulus": "chemotaxis" }
+  ],
+  "duration": 5000,
+  "trials": 200,
+  "stimulus_strength": 30,
+  "spontaneous_rate": 0.08,
+  "plasticity": false
+}
