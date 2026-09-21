@@ -1,0 +1,37 @@
+{
+  "name": "hybrid001",
+  "version": "0.1.0-beta",
+  "description": "cross-species hybrid nervous system simulation framework",
+  "type": "module",
+  "bin": {
+    "hybrid001": "src/cli.ts"
+  },
+  "scripts": {
+    "sim": "npx tsx src/cli.ts",
+    "baseline": "npx tsx src/cli.ts -e baseline -n 200",
+    "coherence": "npx tsx src/cli.ts -e coherence -n 200",
+    "conflict": "npx tsx src/cli.ts -e conflict -n 200",
+    "ablation": "npx tsx src/cli.ts -e bridge-ablation -n 200"
+  },
+  "keywords": [
+    "neuroscience",
+    "connectome",
+    "simulation",
+    "c-elegans",
+    "drosophila",
+    "LIF",
+    "neural-network",
+    "computational-biology"
+  ],
+  "author": "rodenlab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodenlab/hybrid001"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}
