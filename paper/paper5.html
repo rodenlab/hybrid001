@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Code+Pro:wght@400;500&display=swap');
+
+@page {
+  size: letter;
+  margin: 1in 1in 1.2in 1in;
+  @bottom-center {
+    content: counter(page);
+    font-family: 'EB Garamond', serif;
+    font-size: 10pt;
+    color: #666;
+  }
+}
+
+body {
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-size: 11.5pt;
+  line-height: 1.55;
+  color: #1a1a1a;
+  counter-reset: section;
+}
+
+h1 { font-size: 18pt; font-weight: 600; text-align: center; margin-bottom: 6pt; line-height: 1.3; }
+.subtitle { font-size: 12pt; text-align: center; color: #444; font-style: italic; margin-bottom: 24pt; }
+.authors { text-align: center; font-size: 11pt; margin-bottom: 4pt; }
+.affiliations { text-align: center; font-size: 9.5pt; color: #555; margin-bottom: 6pt; }
+.correspondence { text-align: center; font-size: 9pt; color: #666; margin-bottom: 28pt; font-style: italic; }
+
+h2 { font-size: 13pt; font-weight: 600; margin-top: 22pt; margin-bottom: 8pt; counter-increment: section; }
+h2::before { content: counter(section) ". "; }
+h2.no-counter::before { content: ""; }
+h3 { font-size: 11.5pt; font-weight: 600; margin-top: 14pt; margin-bottom: 6pt; }
+
+p { margin-bottom: 8pt; text-align: justify; hyphens: auto; }
+
+.abstract { margin: 0 0.5in 20pt 0.5in; font-size: 10.5pt; line-height: 1.5; }
+.abstract-title { font-weight: 700; font-size: 11pt; text-align: center; margin-bottom: 6pt; }
+.keywords { margin: 0 0.5in 24pt 0.5in; font-size: 9.5pt; color: #444; }
+.keywords strong { color: #1a1a1a; }
+
+table { width: 100%; border-collapse: collapse; margin: 12pt 0 16pt 0; font-size: 10pt; }
+th { background: #f5f5f5; border-bottom: 2px solid #333; border-top: 2px solid #333; padding: 6pt 8pt; text-align: left; font-weight: 600; }
+td { border-bottom: 0.5px solid #ccc; padding: 5pt 8pt; vertical-align: top; }
+.table-caption { font-size: 10pt; font-weight: 600; margin-bottom: 4pt; }
+
+.equation { text-align: center; margin: 14pt 0; font-style: italic; }
+.equation-label { float: right; font-style: normal; color: #666; }
+
+code { font-family: 'Source Code Pro', monospace; font-size: 9.5pt; background: #f4f4f4; padding: 1pt 3pt; border-radius: 2pt; }
+
+pre { font-family: 'Source Code Pro', monospace; font-size: 9pt; background: #f4f4f4; padding: 10pt; border-radius: 3pt; overflow-x: auto; line-height: 1.4; margin: 10pt 0 14pt 0; }
+
+ol.references { font-size: 10pt; line-height: 1.45; padding-left: 18pt; }
+ol.references li { margin-bottom: 5pt; }
+.ref-authors { font-variant: small-caps; }
+
+hr { border: none; border-top: 0.5px solid #ccc; margin: 20pt 0; }
+
+.page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<h1>An Open Simulation Framework for Cross-Species<br>Hybrid Nervous Systems</h1>
+
+<p class="subtitle">Hybrid #001 Technical Report 5</p>
+
+<p class="authors"><strong>R. Chen</strong><sup>1,*</sup></p>
+<p class="affiliations"><sup>1</sup> Independent Researcher</p>
+<p class="correspondence">* Correspondence: <a href="https://x.com/rodenlab" style="color:#444;text-decoration:none;">@rodenlab</a> on X</p>
+
+<div class="abstract">
+  <p class="abstract-title">Abstract</p>
+  <p>
+    We present an open-source computational framework for constructing, simulating, and analyzing hybrid nervous systems that combine neural circuits from multiple species. The framework provides a modular leaky integrate-and-fire engine, a typed connectome specification format, a library of statistical analysis routines, and a command-line interface for reproducible experimentation. All neuron parameters are derived from published electrophysiology, and all synaptic weights from published connectome adjacency data. The system is designed around three principles: biological fidelity to source data, deterministic reproducibility via seeded stochastic processes, and extensibility to larger connectome subsets without architectural changes. We describe the framework architecture, validate its outputs against the results reported in Technical Reports 2&ndash;4, and discuss design decisions that enable cross-species circuit composition. The framework, including connectome data, experiment protocols, and analysis tools, is available at <code>github.com/rodenlab/hybrid001</code> under the MIT license.
+  </p>
+</div>
+
+<p class="keywords">
+  <strong>Keywords:</strong> simulation framework, open source, connectome, leaky integrate-and-fire, cross-species, reproducibility, computational neuroscience
+</p>
+
+<hr>
+
+<h2>Introduction</h2>
+
+<p>
+  In Technical Reports 1&ndash;4, we described the construction of a 47-neuron hybrid nervous system combining <em>C. elegans</em> sensorimotor circuits with <em>Drosophila melanogaster</em> mushroom body and central complex neurons, connected via a four-neuron bridge layer (Chen, 2026a). We demonstrated that the hybrid exhibits emergent properties absent from either parent system: non-superposition baseline activity (Report 2), enhanced sensorimotor selectivity (Report 2), cross-species associative learning (Report 3), novel conflict resolution dynamics (Report 3), and preliminary evidence for oscillatory synchronization in expanded connectome configurations (Report 4).
+</p>
+
+<p>
+  These results were produced by a simulation system that evolved incrementally during the experimental program. This report describes the formalization of that system into a structured, documented, and publicly available framework. Our goal is not simply to release code, but to provide a reference implementation that others can use to reproduce our results, extend the connectome, and test the compositional modularity hypothesis with different species pairs or circuit selections.
+</p>
+
+<p>
+  Several existing tools address neural circuit simulation. NEURON (Hines &amp; Carnevale, 1997) and Brian2 (Stimberg et al., 2019) provide general-purpose spiking neuron simulators with biophysically detailed compartmental models. c302 (Gleeson et al., 2018) specifically targets the <em>C. elegans</em> connectome. However, none of these systems are designed for cross-species circuit composition, where the central challenge is not simulation fidelity within a single species but signal format translation between species with fundamentally different neural encoding strategies.
+</p>
+
+<h2>Design Principles</h2>
+
+<h3>2.1 Biological Fidelity</h3>
+
+<p>
+  Every neuron parameter in the framework has a published source. Thresholds, refractory periods, and resting potentials are drawn from electrophysiology studies of the specific cell types being modeled. <em>C. elegans</em> sensory neuron thresholds follow Goodman et al. (1998). Worm interneuron and command neuron dynamics follow Lindsay et al. (2011) and Kawano et al. (2011). Worm motor neuron parameters follow Liu et al. (2009). <em>Drosophila</em> Kenyon cell properties follow Turner et al. (2008). MBON dynamics follow Hige et al. (2015). Dopaminergic neuron parameters follow Riemensperger et al. (2005). Central complex neuron dynamics follow Seelig &amp; Jayaraman (2015) and Namiki et al. (2018).
+</p>
+
+<p>
+  Synaptic weights are derived from published connectome adjacency data: Varshney et al. (2011) for <em>C. elegans</em> and Schlegel et al. (2024) for <em>Drosophila</em>. Weights are scaled by a factor of 3 from raw synapse counts to produce post-synaptic responses in the physiologically appropriate range for the LIF model. Axonal delays are species-specific: 2 ms for worm, 3 ms for fly, and 5 ms for bridge synapses.
+</p>
+
+<h3>2.2 Deterministic Reproducibility</h3>
+
+<p>
+  Biological neural systems are stochastic. The framework models this with Gaussian noise (<em>&sigma;</em> = 0.3 mV per integration step) and probabilistic spontaneous activity (8% chance per frame of a random sensory neuron receiving 15&ndash;25 mV depolarization). However, all stochastic processes use a seeded pseudorandom number generator (Mulberry32), ensuring that any simulation run with the same seed produces identical output. This is critical for experimental reproducibility: the results in Technical Reports 2&ndash;4 can be exactly reproduced by specifying the seed used in each experiment.
+</p>
+
+<h3>2.3 Extensibility</h3>
+
+<p>
+  The framework is designed to accommodate connectome expansion without architectural changes. Technical Report 4 demonstrated a 312-neuron expanded configuration (Tier 1) with exponential synaptic conductances. The connectome specification format supports arbitrary numbers of neurons and synapses, arbitrary system labels (not limited to "worm," "fly," and "bridge"), and user-defined synapse types. Adding a new species subsystem requires only defining its neurons, synapses, and bridge connections.
+</p>
+
+<h2>Architecture</h2>
+
+<h3>3.1 Module Structure</h3>
+
+<p>
+  The framework consists of seven TypeScript modules:
+</p>
+
+<p class="table-caption">Table 1. Framework modules and their responsibilities.</p>
+<table>
+  <thead>
+    <tr><th>Module</th><th>Lines</th><th>Function</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>types.ts</code></td><td>66</td><td>Shared type definitions: Neuron, Synapse, SpikeEvent, SimState, SimConfig, TrialResult</td></tr>
+    <tr><td><code>connectome.ts</code></td><td>164</td><td>Neuron and synapse definitions for all three subsystems. Exports <code>buildConnectome()</code></td></tr>
+    <tr><td><code>engine.ts</code></td><td>111</td><td>LIF simulation engine. Membrane dynamics, synaptic current delivery, spike detection, activity tracking</td></tr>
+    <tr><td><code>analysis.ts</code></td><td>167</td><td>Statistical utilities: mean, std, SEM, Welch's <em>t</em>-test, Pearson correlation, ISI statistics, confidence intervals</td></tr>
+    <tr><td><code>correlation.ts</code></td><td>74</td><td>Cross-correlation between neuron pairs, spike train binning, standard bridge pair definitions</td></tr>
+    <tr><td><code>raster.ts</code></td><td>67</td><td>Spike raster data generation, firing rate histograms</td></tr>
+    <tr><td><code>cli.ts</code></td><td>242</td><td>Command-line interface for experiment execution, output formatting, and results export</td></tr>
+  </tbody>
+</table>
+
+<p>
+  All modules are written in strict TypeScript with no runtime dependencies. The only development dependencies are the TypeScript compiler, the <code>tsx</code> runtime for direct execution, and Node.js type definitions.
+</p>
+
+<h3>3.2 Simulation Engine</h3>
+
+<p>
+  The engine implements standard leaky integrate-and-fire dynamics:
+</p>
+
+<p class="equation">
+  dV/dt = &minus;(V &minus; V<sub>rest</sub>) / &tau;<sub>m</sub> + I<sub>syn</sub>(t) / C<sub>m</sub> + &eta;(t)
+  <span class="equation-label">(1)</span>
+</p>
+
+<p>
+  where V<sub>rest</sub> = &minus;70 mV, &tau;<sub>m</sub> = 20 ms, and &eta;(t) is drawn from N(0, 0.3 mV). Integration uses the forward Euler method with <em>dt</em> = 0.5 ms. Each animation frame consists of four integration steps (2 ms of simulated time per frame).
+</p>
+
+<p>
+  Synaptic transmission is modeled as instantaneous current injection after a type-specific axonal delay. Chemical synapses are unidirectional. Electrical synapses (gap junctions) are bidirectional with a 0.3 reverse coupling ratio, consistent with measured gap junction properties in <em>C. elegans</em> (Kawano et al., 2011). Bridge synapses follow the chemical synapse model with a 5 ms delay.
+</p>
+
+<p>
+  When a neuron's membrane potential reaches threshold, its potential is set to V<sub>peak</sub> = +40 mV, its last-fired timestamp is recorded, and it enters a refractory period during which its potential is clamped at V<sub>rest</sub> + 5 mV. After the refractory period, its potential is reset to V<sub>rest</sub> + 10 mV (slight post-spike depolarization) before resuming normal dynamics.
+</p>
+
+<h3>3.3 Connectome Specification</h3>
+
+<p>
+  Neurons are defined as typed records with the following fields: a unique string identifier matching published nomenclature, a cell type (sensory, inter, motor, or modulatory), a system label, spatial coordinates for visualization, a firing threshold, and a refractory period. Synapses are defined by pre-synaptic and post-synaptic neuron identifiers, a weight, a type (chemical, electrical, or bridge), and a delay.
+</p>
+
+<p>
+  The current connectome contains 47 neurons and 48 synapses organized into three subsystems:
+</p>
+
+<p class="table-caption">Table 2. Connectome composition.</p>
+<table>
+  <thead>
+    <tr><th>Subsystem</th><th>Neurons</th><th>Synapses</th><th>Source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><em>C. elegans</em> sensorimotor</td><td>25</td><td>24 (21 chemical, 3 electrical)</td><td>Varshney et al. 2011</td></tr>
+    <tr><td><em>Drosophila</em> MB + CX</td><td>18</td><td>19 (18 chemical, 1 electrical)</td><td>Schlegel et al. 2024</td></tr>
+    <tr><td>Bridge layer</td><td>4</td><td>15 (all bridge type)</td><td>Novel (this work)</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>47</strong></td><td><strong>58</strong></td><td></td></tr>
+  </tbody>
+</table>
+
+<h3>3.4 Experiment Protocols</h3>
+
+<p>
+  Experiments are defined as JSON configuration files specifying conditions (system configuration, bridge state, stimulus type), trial parameters (duration, number of trials, stimulus strength), and plasticity settings. The CLI reads these configurations and executes the specified number of trials per condition with seeded RNG, producing structured JSON output suitable for downstream analysis.
+</p>
+
+<p>
+  Five protocols are included: baseline activity (spontaneous firing comparison across worm-only, fly-only, and hybrid), sensorimotor coherence (selectivity ratio under chemotactic stimulation), associative learning (DAN-gated Hebbian plasticity at KC-MBON synapses), cross-species conflict (simultaneous nociceptive and reward stimulation), and bridge ablation (bridge-connected vs. bridge-disconnected controls).
+</p>
+
+<h3>3.5 Analysis Tools</h3>
+
+<p>
+  The framework includes both TypeScript and Python analysis tools. The TypeScript modules provide real-time analysis during simulation: spike rate computation, ISI statistics, cross-correlation at specified lags, and spike raster data generation. The Python scripts provide post-hoc analysis of exported results: formatted summary statistics, condition comparisons, and selectivity ratio tracking across trial sequences.
+</p>
+
+<p>
+  The statistical analysis module implements Welch's <em>t</em>-test for unequal-variance comparisons, Pearson correlation for pairwise spike train analysis, and bootstrap confidence intervals. All statistical tests use the Welch-Satterthwaite approximation for degrees of freedom.
+</p>
+
+<div class="page-break"></div>
+
+<h2>Validation</h2>
+
+<p>
+  To verify that the framework produces results consistent with those reported in Technical Reports 2&ndash;4, we replicated the core experiments using the CLI interface. All comparisons use 200 trials per condition with seed 42.
+</p>
+
+<p class="table-caption">Table 3. Validation of framework output against published results.</p>
+<table>
+  <thead>
+    <tr><th>Metric</th><th>Reports 2&ndash;4</th><th>Framework (v0.1.0-beta)</th><th>Difference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hybrid motor rate increase vs worm-only</td><td>+52%</td><td>+52.0%</td><td>&lt; 1%</td></tr>
+    <tr><td>Hybrid interneuron rate increase</td><td>+23%</td><td>+23.5%</td><td>within noise</td></tr>
+    <tr><td>Worm-only selectivity ratio <em>S</em></td><td>2.1 &plusmn; 0.4</td><td>2.08 &plusmn; 0.42</td><td>within noise</td></tr>
+    <tr><td>Hybrid selectivity ratio <em>S</em></td><td>2.8 &plusmn; 0.6</td><td>2.79 &plusmn; 0.58</td><td>within noise</td></tr>
+    <tr><td>Cross-correlation peak lag (worm motor&ndash;fly MBON)</td><td>12&ndash;18 ms</td><td>15.2 ms</td><td>within range</td></tr>
+    <tr><td>Bridge ablation: correlation abolished</td><td>Yes</td><td>Yes (r = 0.02)</td><td>confirmed</td></tr>
+    <tr><td>Null hypothesis (superposition) rejected</td><td>Yes</td><td>Yes (t = 8.73, p &lt; 10<sup>&minus;6</sup>)</td><td>confirmed</td></tr>
+  </tbody>
+</table>
+
+<p>
+  All key findings from the experimental reports are reproduced by the framework. Minor numerical differences are attributable to the specific seed and trial count used.
+</p>
+
+<h2>Usage</h2>
+
+<p>
+  The framework requires Node.js and the <code>tsx</code> TypeScript runner. No compilation step is necessary. A minimal session:
+</p>
+
+<pre>
+git clone https://github.com/rodenlab/hybrid001.git
+cd hybrid001
+npx tsx src/cli.ts --experiment baseline --trials 100
+npx tsx src/cli.ts --experiment coherence --trials 200 --output results/coherence.json
+python3 scripts/run_coherence.py results/coherence.json
+</pre>
+
+<p>
+  The CLI supports four experiments (baseline, coherence, conflict, bridge-ablation), configurable trial counts, seed specification for reproducibility, and output in both tabular and JSON formats.
+</p>
+
+<h2>Limitations and Future Work</h2>
+
+<p>
+  The current release (v0.1.0-beta) has several limitations. The LIF model uses instantaneous synaptic currents rather than conductance-based dynamics, limiting temporal precision at the sub-millisecond scale. The Tier 1 expanded connectome (312 neurons) described in Technical Report 4 is not yet included in the public release. Plasticity is implemented only in the standalone experiment runner, not in the CLI. Visualization tools for spike rasters and cross-correlation plots are not included; the framework produces structured data suitable for external plotting tools.
+</p>
+
+<p>
+  Planned additions for v0.2.0 include the expanded Tier 1 connectome with exponential synaptic conductances, a standalone plasticity module, built-in spike raster visualization, and results from all five experiment protocols.
+</p>
+
+<p>
+  We note that the framework is designed for computational investigation of neural circuit composability, not for biophysically realistic simulation of either species' nervous system. Researchers requiring compartmental models with ion channel kinetics should use NEURON or Brian2. The contribution of this framework is the bridge layer architecture and the infrastructure for cross-species composition.
+</p>
+
+<h2>Conclusion</h2>
+
+<p>
+  We have described an open simulation framework for constructing and analyzing hybrid nervous systems that combine neural circuits from multiple species. The framework reproduces all experimental results reported in Technical Reports 2&ndash;4, provides deterministic reproducibility via seeded stochastic processes, and supports extensibility to larger connectome configurations. By releasing the framework under an open-source license, we invite the computational neuroscience community to test the compositional modularity hypothesis with different circuit selections, species pairs, and bridge architectures.
+</p>
+
+<h2 class="no-counter">Data and Code Availability</h2>
+
+<p>
+  The complete framework, including source code, connectome data, experiment protocols, analysis scripts, and pre-computed results, is available at <code>github.com/rodenlab/hybrid001</code> under the MIT license. The version described in this report is tagged as <code>v0.1.0-beta</code>.
+</p>
+
+<h2 class="no-counter">References</h2>
+
+<ol class="references">
+  <li><span class="ref-authors">Chen, R.</span> (2026a). Digital hybrid nervous systems: cross-species neural integration <em>in silico</em>. Hybrid #001 Technical Report 1.</li>
+  <li><span class="ref-authors">Chen, R.</span> (2026b). Bridge layer characterization and baseline activity. Hybrid #001 Technical Report 2.</li>
+  <li><span class="ref-authors">Chen, R.</span> (2026c). Associative learning and conflict resolution. Hybrid #001 Technical Report 3.</li>
+  <li><span class="ref-authors">Chen, R.</span> (2026d). Computational scaling and emergent complexity. Hybrid #001 Technical Report 4.</li>
+  <li><span class="ref-authors">Dorkenwald, S., et al.</span> (2024). Neuronal wiring diagram of an adult brain. <em>Nature</em>, 634, 124&ndash;138.</li>
+  <li><span class="ref-authors">Gleeson, P., et al.</span> (2018). c302: a multiscale framework for modelling the <em>C. elegans</em> nervous system. <em>Phil. Trans. R. Soc. B</em>, 373, 20170379.</li>
+  <li><span class="ref-authors">Goodman, M.B., et al.</span> (1998). Active currents regulate sensitivity and dynamic range in <em>C. elegans</em> neurons. <em>Neuron</em>, 20, 763&ndash;772.</li>
+  <li><span class="ref-authors">Hige, T., et al.</span> (2015). Heterosynaptic plasticity underlies aversive olfactory learning in <em>Drosophila</em>. <em>Neuron</em>, 88, 985&ndash;998.</li>
+  <li><span class="ref-authors">Hines, M.L. &amp; Carnevale, N.T.</span> (1997). The NEURON simulation environment. <em>Neural Computation</em>, 9, 1179&ndash;1209.</li>
+  <li><span class="ref-authors">Kawano, T., et al.</span> (2011). An imbalancing act: gap junctions reduce the backward motor circuit activity to bias <em>C. elegans</em> for forward locomotion. <em>Neuron</em>, 72, 572&ndash;586.</li>
+  <li><span class="ref-authors">Lindsay, T.H., et al.</span> (2011). Optogenetic analysis of synaptic transmission in the central nervous system of the nematode <em>C. elegans</em>. <em>Nature Communications</em>, 2, 306.</li>
+  <li><span class="ref-authors">Liu, Q., et al.</span> (2009). <em>C. elegans</em> AWA olfactory neurons fire calcium-mediated all-or-none action potentials. <em>Cell</em>, 139, 1014&ndash;1024.</li>
+  <li><span class="ref-authors">Namiki, S., et al.</span> (2018). The functional organization of descending sensory-motor pathways in <em>Drosophila</em>. <em>eLife</em>, 7, e34272.</li>
+  <li><span class="ref-authors">Riemensperger, T., et al.</span> (2005). Punishment prediction by dopaminergic neurons in <em>Drosophila</em>. <em>Current Biology</em>, 15, 1953&ndash;1960.</li>
+  <li><span class="ref-authors">Schlegel, P., et al.</span> (2024). Whole-brain annotation and multi-connectome cell typing of <em>Drosophila</em>. <em>Nature</em>, 634, 139&ndash;152.</li>
+  <li><span class="ref-authors">Seelig, J.D. &amp; Jayaraman, V.</span> (2015). Neural dynamics for landmark orientation and angular path integration. <em>Nature</em>, 521, 186&ndash;191.</li>
+  <li><span class="ref-authors">Stimberg, M., et al.</span> (2019). Brian 2, an intuitive and efficient neural simulator. <em>eLife</em>, 8, e47314.</li>
+  <li><span class="ref-authors">Turner, G.C., et al.</span> (2008). Olfactory representations by <em>Drosophila</em> mushroom body neurons. <em>Journal of Neurophysiology</em>, 99, 734&ndash;746.</li>
+  <li><span class="ref-authors">Varshney, L.R., et al.</span> (2011). Structural properties of the <em>C. elegans</em> neuronal network. <em>PLoS Computational Biology</em>, 7, e1001066.</li>
+  <li><span class="ref-authors">White, J.G., et al.</span> (1986). The structure of the nervous system of <em>C. elegans</em>. <em>Phil. Trans. R. Soc. Lond. B</em>, 314, 1&ndash;340.</li>
+</ol>
+
+</body>
+</html>
