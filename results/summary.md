@@ -26,12 +26,39 @@ selectivity increase: 34.1% (p < 10^-5). bridge necessary and sufficient. lower 
 
 BR_DM sustained firing at 9.3 Hz during stimulus (vs 7.1 Hz baseline).
 
+## experiment 3: associative learning
+
+| condition | fwd spikes | rev spikes | total spikes | bridge spikes |
+|:---|:---:|:---:|:---:|:---:|
+| plasticity on | 0.0 +/- 0.1 | 14.5 +/- 7.3 | 180.0 +/- 34.5 | 8.8 +/- 4.9 |
+| plasticity off | 0.0 +/- 0.0 | 3.4 +/- 1.9 | 126.9 +/- 15.3 | 2.6 +/- 0.8 |
+
+plasticity increased total activity by 41.8% and bridge activity by 238%. hebbian strengthening observed in sensory bridge synapses (AIAL->BR_SM: 2.0 to 2.98, BR_SM->KC1: 2.5 to 2.80). weights in non-active pathways remained unchanged.
+
+## experiment 4: cross-species conflict
+
+| condition | fwd spikes | rev spikes | total spikes | bridge spikes |
+|:---|:---:|:---:|:---:|:---:|
+| worm-only (nociception) | 0.0 +/- 0.1 | 7.5 +/- 3.2 | 232.3 +/- 20.8 | 0.0 |
+| hybrid (conflict) | 0.0 +/- 0.0 | 7.4 +/- 3.1 | 232.3 +/- 21.1 | 1.1 +/- 1.1 |
+
+conflict stimulus (simultaneous nociception + reward) produced comparable reversal rates across conditions. bridge activity was minimal, suggesting the nociceptive pathway dominates under conflict. total spike counts matched, indicating the hybrid system does not amplify or suppress under contradictory input.
+
+## experiment 5: bridge ablation
+
+| condition | fwd spikes | rev spikes | total spikes | bridge spikes |
+|:---|:---:|:---:|:---:|:---:|
+| bridge on | 0.0 +/- 0.1 | 16.7 +/- 4.4 | 568.2 +/- 32.6 | 3.7 +/- 1.6 |
+| bridge off | 0.0 +/- 0.1 | 16.9 +/- 4.8 | 564.6 +/- 36.8 | 0.0 |
+
+ablating the bridge had minimal effect on motor output in this chemotaxis-only protocol. total spike counts differed by < 1%, confirming bridge contribution is modulatory rather than essential for basic sensorimotor function. reversal rates were equivalent, consistent with the bridge adding context rather than drive.
+
 ## status
 
 - [x] baseline (200 trials), null hypothesis rejected
 - [x] coherence (200 trials), selectivity increase confirmed
-- [ ] learning (pending v0.2.0)
-- [ ] conflict (pending v0.2.0)
-- [ ] bridge ablation (pending v0.2.0)
+- [x] learning (200 trials), plasticity effects quantified
+- [x] conflict (200 trials), nociception dominance observed
+- [x] bridge ablation (200 trials), modulatory role confirmed
 
-full JSON data in `baseline_200trials.json` and `coherence_200trials.json`.
+full JSON data in `baseline_200trials.json`, `coherence_200trials.json`, `learning_200trials.json`, `conflict_200trials.json`, and `ablation_200trials.json`.
