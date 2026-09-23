@@ -112,6 +112,121 @@ function runTrial(config: SimConfig): TrialResult {
   }
 }
 
+// learning trial: paired CS (chemotaxis) + US (reward) with optional plasticity
+function runLearningTrial(config: SimConfig): TrialResult {
+  const start = performance.now()
+  const rand = mulberry32(config.seed)
+  const { neurons: allN, synapses: allS } = buildConnectome()
+
+  const neurons = new Map<string, Neuron>()
+  const synapses: Synapse[] = []
+
+  for (const [id, n] of allN) {
+    if (!config.bridgeEnabled && n.system === 'bridge') continue
+    neurons.set(id, { ...n, potential: V_REST, lastFired: -1000 })
+  }
+  for (const s of allS) {
+    if (!neurons.has(s.from) || !neurons.has(s.to)) continue
+    if (!config.bridgeEnabled && s.type === 'bridge') continue
+    synapses.push({ ...s })
+  }
+
+  let fwd = 0, rev = 0, brg = 0, total = 0, time = 0
+  let firstMotorTime = -1, stimApplied = false, stimTime = -1
+  const bySys = { worm: 0, fly: 0, bridge: 0 }
+
+  // conditioning phase: CS at frame 100, US (DAN2) at frame 300
+  const CS_FRAME = 100
+  const US_FRAME = 300
+  // test phase: CS only at frame 600
+  const TEST_FRAME = 600
+
+  for (let frame = 0; frame < config.duration; frame++) {
+    if (rand() < config.spontaneousRate) {
+      const sensory = [...neurons.values()].filter(n => n.type === 'sensory')
+      if (sensory.length) sensory[Math.floor(rand() * sensory.length)].potential += 15 + rand() * 10
+    }
+
+    // CS: stimulate chemotaxis pathway
+    if (frame === CS_FRAME || frame === TEST_FRAME) {
+      for (const id of STIM_TARGETS['chemotaxis']) {
+        const n = neurons.get(id)
+        if (n) n.potential += config.stimulusStrength
+      }
+      if (frame === TEST_FRAME) { stimApplied = true; stimTime = time }
+    }
+
+    // US: stimulate reward (DAN2)
+    if (frame === US_FRAME) {
+      for (const id of STIM_TARGETS['reward']) {
+        const n = neurons.get(id)
+        if (n) n.potential += config.stimulusStrength * 1.5
+      }
+    }
+
+    for (let i = 0; i < STEPS; i++) {
+      // hebbian plasticity: strengthen synapses where pre and post fire close together
+      if (config.plasticityEnabled) {
+        for (const syn of synapses) {
+          const pre = neurons.get(syn.from), post = neurons.get(syn.to)
+          if (!pre || !post) continue
+          const preDt = time - pre.lastFired
+          const postDt = time - post.lastFired
+          if (preDt < 10 && postDt < 10 && preDt >= 0 && postDt >= 0) {
+            const dw = config.plasticityRate * (postDt < preDt ? 1 : -0.5) * DT
+            syn.weight = Math.max(0.1, Math.min(syn.weight + dw, syn.weight * 2))
+          }
+        }
+      }
+
+      for (const syn of synapses) {
+        const pre = neurons.get(syn.from), post = neurons.get(syn.to)
+        if (!pre || !post) continue
+        const dt = time - pre.lastFired
+        if (dt >= syn.delay && dt < syn.delay + DT * 2) {
+          post.potential += syn.weight * 3
+          if (syn.type === 'electrical') pre.potential += syn.weight * 3 * 0.3
+        }
+      }
+      for (const [id, n] of neurons) {
+        if (time - n.lastFired < n.refractory) { n.potential = V_REST + 5; continue }
+        if (n.potential >= V_PEAK) { n.potential = V_REST + 10; continue }
+        n.potential += (-(n.potential - V_REST) / TAU) * DT + (rand() - 0.5) * 0.3
+        if (n.potential >= n.threshold) {
+          n.potential = V_PEAK; n.lastFired = time; total++
+          if (FWD.includes(id)) { fwd++; if (firstMotorTime < 0 && stimApplied) firstMotorTime = time - stimTime }
+          if (REV.includes(id)) { rev++; if (firstMotorTime < 0 && stimApplied) firstMotorTime = time - stimTime }
+          if (BRIDGE.includes(id)) brg++
+          if (n.system === 'worm') bySys.worm++
+          else if (n.system === 'fly') bySys.fly++
+          else bySys.bridge++
+        }
+        n.potential = Math.max(V_REST - 5, Math.min(V_PEAK, n.potential))
+      }
+      time += DT
+    }
+  }
+
+  // capture final synaptic weights for bridge synapses
+  const finalWeights: Record<string, number> = {}
+  for (const syn of synapses) {
+    if (syn.type === 'bridge') {
+      finalWeights[`${syn.from}->${syn.to}`] = syn.weight
+    }
+  }
+
+  return {
+    seed: config.seed, config,
+    forwardSpikes: fwd, reverseSpikes: rev,
+    selectivityRatio: rev > 0 ? fwd / rev : (fwd > 0 ? Infinity : 0),
+    totalSpikes: total, bridgeSpikes: brg,
+    spikesBySystem: bySys,
+    responseLatency: firstMotorTime,
+    finalWeights,
+    durationMs: performance.now() - start,
+  }
+}
+
 // experiment definitions
 function runExperiment(name: string, trials: number, baseSeed: number): TrialResult[] {
   const configs: Record<string, SimConfig[]> = {
@@ -132,6 +247,10 @@ function runExperiment(name: string, trials: number, baseSeed: number): TrialRes
       { system: 'hybrid', bridgeEnabled: true, stimulus: 'chemotaxis', stimulusStrength: 30, duration: 5000, plasticityEnabled: false, plasticityRate: 0, spontaneousRate: 0.08, seed: 0 },
       { system: 'hybrid', bridgeEnabled: false, stimulus: 'chemotaxis', stimulusStrength: 30, duration: 5000, plasticityEnabled: false, plasticityRate: 0, spontaneousRate: 0.08, seed: 0 },
     ],
+    learning: [
+      { system: 'hybrid', bridgeEnabled: true, stimulus: 'chemotaxis', stimulusStrength: 30, duration: 1000, plasticityEnabled: true, plasticityRate: 0.05, spontaneousRate: 0.08, seed: 0 },
+      { system: 'hybrid', bridgeEnabled: true, stimulus: 'chemotaxis', stimulusStrength: 30, duration: 1000, plasticityEnabled: false, plasticityRate: 0, spontaneousRate: 0.08, seed: 0 },
+    ],
   }
 
   const cfgs = configs[name]
@@ -144,10 +263,11 @@ function runExperiment(name: string, trials: number, baseSeed: number): TrialRes
   const results: TrialResult[] = []
   for (const base of cfgs) {
     const label = `${base.system}/${base.bridgeEnabled ? 'bridge' : 'no-bridge'}/${base.stimulus}`
+    const plasticLabel = name === 'learning' ? `/${base.plasticityEnabled ? 'plastic' : 'static'}` : ''
     for (let t = 0; t < trials; t++) {
       const config = { ...base, seed: baseSeed + t }
-      results.push(runTrial(config))
-      if ((t + 1) % 50 === 0) process.stderr.write(`  ${label}: ${t + 1}/${trials}\n`)
+      results.push(name === 'learning' ? runLearningTrial(config) : runTrial(config))
+      if ((t + 1) % 50 === 0) process.stderr.write(`  ${label}${plasticLabel}: ${t + 1}/${trials}\n`)
     }
   }
   return results
@@ -187,7 +307,7 @@ function main() {
     if (args[i] === '--output' || args[i] === '-o') output = args[++i]
     if (args[i] === '--format' || args[i] === '-f') format = args[++i] as any
     if (args[i] === '--list') {
-      console.log('available: baseline, coherence, conflict, bridge-ablation')
+      console.log('available: baseline, coherence, conflict, bridge-ablation, learning')
       process.exit(0)
     }
     if (args[i] === '--help' || args[i] === '-h') {
@@ -196,7 +316,7 @@ function main() {
 usage: npx tsx src/cli.ts [options]
 
 options:
-  -e, --experiment NAME   experiment to run (baseline|coherence|conflict|bridge-ablation)
+  -e, --experiment NAME   experiment to run (baseline|coherence|conflict|bridge-ablation|learning)
   -n, --trials N          trials per condition (default: 100)
   -s, --seed N            base RNG seed (default: 42)
   -o, --output FILE       save results to JSON file
@@ -216,10 +336,12 @@ options:
     const compact = results.map(r => ({
       seed: r.seed, system: r.config.system,
       bridge: r.config.bridgeEnabled, stimulus: r.config.stimulus,
+      plasticity: r.config.plasticityEnabled,
       fwd: r.forwardSpikes, rev: r.reverseSpikes,
       selectivity: r.selectivityRatio, total: r.totalSpikes,
       bridge_spikes: r.bridgeSpikes, by_system: r.spikesBySystem,
       latency: r.responseLatency, ms: r.durationMs,
+      ...(Object.keys(r.finalWeights).length > 0 ? { final_weights: r.finalWeights } : {}),
     }))
     console.log(JSON.stringify({ experiment, trials: compact }, null, 2))
   }
@@ -229,10 +351,12 @@ options:
     const data = results.map(r => ({
       seed: r.seed, system: r.config.system,
       bridge: r.config.bridgeEnabled, stimulus: r.config.stimulus,
+      plasticity: r.config.plasticityEnabled,
       fwd: r.forwardSpikes, rev: r.reverseSpikes,
       selectivity: r.selectivityRatio, total: r.totalSpikes,
       bridge_spikes: r.bridgeSpikes, by_system: r.spikesBySystem,
       latency: r.responseLatency,
+      ...(Object.keys(r.finalWeights).length > 0 ? { final_weights: r.finalWeights } : {}),
     }))
     writeFileSync(output, JSON.stringify({ experiment, config: { trials, seed }, data }, null, 2))
     console.log(`saved to: ${output}`)

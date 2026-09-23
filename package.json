@@ -11,7 +11,8 @@
     "baseline": "npx tsx src/cli.ts -e baseline -n 200",
     "coherence": "npx tsx src/cli.ts -e coherence -n 200",
     "conflict": "npx tsx src/cli.ts -e conflict -n 200",
-    "ablation": "npx tsx src/cli.ts -e bridge-ablation -n 200"
+    "ablation": "npx tsx src/cli.ts -e bridge-ablation -n 200",
+    "learning": "npx tsx src/cli.ts -e learning -n 200"
   },
   "keywords": [
     "neuroscience",
