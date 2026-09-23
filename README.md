@@ -9,8 +9,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Neurons](https://img.shields.io/badge/neurons-47-blue)](data/neurons.json)
 [![Synapses](https://img.shields.io/badge/synapses-48-blue)](data/synapses.json)
-[![Status](https://img.shields.io/badge/status-in_progress-yellow)](#status)
-[![Paper](https://img.shields.io/badge/papers-4_reports-orange)](paper/proposal.html)
+[![Status](https://img.shields.io/badge/status-active-green)](#status)
+[![Paper](https://img.shields.io/badge/papers-5_reports-orange)](paper/proposal.html)
 
 ---
 
@@ -173,7 +173,8 @@ hybrid001/
 │   ├── proposal.html        # report 1: architecture proposal
 │   ├── paper2.html          # report 2: baseline characterization
 │   ├── paper3.html          # report 3: learning and conflict
-│   └── paper4.html          # report 4: computational scaling
+│   ├── paper4.html          # report 4: computational scaling
+│   └── paper5.html          # report 5: open simulation framework
 ├── results/                 # experiment output
 ├── ARCHITECTURE.md          # codebase structure guide
 ├── CHANGELOG.md             # version history
@@ -202,7 +203,7 @@ hybrid001/
 - [x] experiment 3: learning trials (report 3)
 - [x] experiment 4: conflict resolution (report 3)
 - [x] statistical analysis
-- [ ] manuscript (reports 1-4 published, full paper pending)
+- [x] manuscript (reports 1-5 published)
 
 ---
 
