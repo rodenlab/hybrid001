@@ -1,6 +1,6 @@
 {
   "name": "hybrid001",
-  "version": "0.1.0-beta",
+  "version": "1.0.0",
   "description": "cross-species hybrid nervous system simulation framework",
   "type": "module",
   "bin": {

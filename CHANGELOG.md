@@ -1,5 +1,18 @@
 # changelog
 
+## v1.0.0 (2026-09-23)
+
+### added
+- learning experiment: paired CS-US protocol with hebbian plasticity (cli and npm script)
+- learning, conflict, and bridge-ablation results (200 trials each)
+- report 5: open simulation framework
+- complete results summary with all five experiments
+
+### changed
+- all experiments now complete, no pending items
+- mit license with full text
+- readme updated with v1.0.0 status and paper 5 reference
+
 ## v0.1.0-beta (2026-09-21)
 
 ### added
