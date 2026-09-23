@@ -1,0 +1,7209 @@
+{
+  "experiment": "conflict",
+  "config": {
+    "trials": 200,
+    "seed": 42
+  },
+  "data": [
+    {
+      "seed": 42,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 220,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 653.5
+    },
+    {
+      "seed": 43,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 453.5
+    },
+    {
+      "seed": 44,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 259,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 259,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1249.5
+    },
+    {
+      "seed": 45,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 210,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 210,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 46,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 2,
+      "selectivity": 0,
+      "total": 228,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 228,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1809.5
+    },
+    {
+      "seed": 47,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 203,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 203,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 503.5
+    },
+    {
+      "seed": 48,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 225,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 87
+    },
+    {
+      "seed": 49,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 225,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 27.5
+    },
+    {
+      "seed": 50,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 247,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 247,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 47.5
+    },
+    {
+      "seed": 51,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 199,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 199,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 953.5
+    },
+    {
+      "seed": 52,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 255,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 255,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 17
+    },
+    {
+      "seed": 53,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 190,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 190,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 901
+    },
+    {
+      "seed": 54,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 204,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 204,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2537.5
+    },
+    {
+      "seed": 55,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 224,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 15
+    },
+    {
+      "seed": 56,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 210,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 210,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1141.5
+    },
+    {
+      "seed": 57,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 217,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 217,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 57.5
+    },
+    {
+      "seed": 58,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 271,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 271,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 27.5
+    },
+    {
+      "seed": 59,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 249,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 249,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 163
+    },
+    {
+      "seed": 60,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 214,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 214,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 61,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 2,
+      "selectivity": 0,
+      "total": 185,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 185,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 3303
+    },
+    {
+      "seed": 62,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 244,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 244,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 771.5
+    },
+    {
+      "seed": 63,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 236,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 785.5
+    },
+    {
+      "seed": 64,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 246,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 49.5
+    },
+    {
+      "seed": 65,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1509.5
+    },
+    {
+      "seed": 66,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 265,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 265,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 8
+    },
+    {
+      "seed": 67,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 212,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 212,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1125
+    },
+    {
+      "seed": 68,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 217.5
+    },
+    {
+      "seed": 69,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 267,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 267,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 70,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 229,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 71,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 255,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 255,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 445.5
+    },
+    {
+      "seed": 72,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 257,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 257,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 363.5
+    },
+    {
+      "seed": 73,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 227,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 227,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 15
+    },
+    {
+      "seed": 74,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 236,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 75,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 266,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 266,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 221.5
+    },
+    {
+      "seed": 76,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 258,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 258,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 35.5
+    },
+    {
+      "seed": 77,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 209,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 209,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1677.5
+    },
+    {
+      "seed": 78,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 254,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 254,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 43.5
+    },
+    {
+      "seed": 79,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 201,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 201,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 21.5
+    },
+    {
+      "seed": 80,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 227,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 227,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 107.5
+    },
+    {
+      "seed": 81,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 208,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 208,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 29.5
+    },
+    {
+      "seed": 82,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 256,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 256,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 633.5
+    },
+    {
+      "seed": 83,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 205,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 205,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 39.5
+    },
+    {
+      "seed": 84,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 255,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 255,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 377.5
+    },
+    {
+      "seed": 85,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 246,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 509.5
+    },
+    {
+      "seed": 86,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 228,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 228,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 147.5
+    },
+    {
+      "seed": 87,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 236,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 329.5
+    },
+    {
+      "seed": 88,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 251,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 251,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 281.5
+    },
+    {
+      "seed": 89,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 256,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 256,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 451
+    },
+    {
+      "seed": 90,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 222,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 222,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 117.5
+    },
+    {
+      "seed": 91,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 242,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 242,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 92,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 226,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 226,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 93,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 246,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 33.5
+    },
+    {
+      "seed": 94,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 2,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 213
+    },
+    {
+      "seed": 95,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 255,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 255,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 47.5
+    },
+    {
+      "seed": 96,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 202,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 202,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 15
+    },
+    {
+      "seed": 97,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 213,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 213,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 47.5
+    },
+    {
+      "seed": 98,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 247,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 247,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 99,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 100,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 215,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 215,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 287.5
+    },
+    {
+      "seed": 101,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 254,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 254,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 102,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 245,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 245,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1117.5
+    },
+    {
+      "seed": 103,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 264,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 264,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 497.5
+    },
+    {
+      "seed": 104,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 213,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 213,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 105,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 231,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 106,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 248,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 248,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 107,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 224,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 51.5
+    },
+    {
+      "seed": 108,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 220,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1055.5
+    },
+    {
+      "seed": 109,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 256,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 256,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 110,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 229,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 325
+    },
+    {
+      "seed": 111,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 241,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 241,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 51.5
+    },
+    {
+      "seed": 112,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 220,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 113,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 212,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 212,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 114,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 199,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 199,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2005.5
+    },
+    {
+      "seed": 115,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 246,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 116,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 218,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 218,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 117,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 183.5
+    },
+    {
+      "seed": 118,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 219,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 219,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 119,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 282,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 282,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 29.5
+    },
+    {
+      "seed": 120,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 243,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 243,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 417.5
+    },
+    {
+      "seed": 121,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 122,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 219,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 219,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 123,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 242,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 242,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1023.5
+    },
+    {
+      "seed": 124,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 265,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 265,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 125,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 241,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 241,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 8
+    },
+    {
+      "seed": 126,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 216,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 216,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 531
+    },
+    {
+      "seed": 127,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 261,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 261,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 447.5
+    },
+    {
+      "seed": 128,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 224,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 245.5
+    },
+    {
+      "seed": 129,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 253,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 253,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 130,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 131,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 132,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 228,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 228,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 131.5
+    },
+    {
+      "seed": 133,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 257,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 257,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 241.5
+    },
+    {
+      "seed": 134,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 5
+    },
+    {
+      "seed": 135,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 276,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 276,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 25.5
+    },
+    {
+      "seed": 136,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 855.5
+    },
+    {
+      "seed": 137,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 252,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 252,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 8
+    },
+    {
+      "seed": 138,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 206,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 206,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1929.5
+    },
+    {
+      "seed": 139,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 829.5
+    },
+    {
+      "seed": 140,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 225,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 31.5
+    },
+    {
+      "seed": 141,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 226,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 226,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1625.5
+    },
+    {
+      "seed": 142,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 252,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 252,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 143,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 251,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 251,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 431
+    },
+    {
+      "seed": 144,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 232,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 232,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 53.5
+    },
+    {
+      "seed": 145,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 231,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 146,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 254,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 254,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 147,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 203,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 203,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 41.5
+    },
+    {
+      "seed": 148,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 1,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 230,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1269
+    },
+    {
+      "seed": 149,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 213,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 213,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1157.5
+    },
+    {
+      "seed": 150,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 205,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 205,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 151,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 194,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 194,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 451.5
+    },
+    {
+      "seed": 152,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 227,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 227,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1005.5
+    },
+    {
+      "seed": 153,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 223,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 223,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 8
+    },
+    {
+      "seed": 154,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 176,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 176,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 863.5
+    },
+    {
+      "seed": 155,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 260,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 260,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 659.5
+    },
+    {
+      "seed": 156,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 276,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 276,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 157,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 202,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 202,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 313.5
+    },
+    {
+      "seed": 158,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 229,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 159,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 244,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 244,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 51.5
+    },
+    {
+      "seed": 160,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 248,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 248,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 161,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 228,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 228,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 501.5
+    },
+    {
+      "seed": 162,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 224,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 163,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 245,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 245,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 753.5
+    },
+    {
+      "seed": 164,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 220,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 165,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 249,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 249,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 166,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 281,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 281,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1207.5
+    },
+    {
+      "seed": 167,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 239,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 239,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 168,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 274,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 274,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 913.5
+    },
+    {
+      "seed": 169,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 211,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 211,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 170,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 1,
+      "selectivity": 0,
+      "total": 210,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 210,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1525.5
+    },
+    {
+      "seed": 171,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 210,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 210,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 211
+    },
+    {
+      "seed": 172,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 227,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 227,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 175.5
+    },
+    {
+      "seed": 173,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 245,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 245,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 174,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 259,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 259,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 175,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 194,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 194,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 176,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 205,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 205,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 357.5
+    },
+    {
+      "seed": 177,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 230,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 97.5
+    },
+    {
+      "seed": 178,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1859.5
+    },
+    {
+      "seed": 179,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 249,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 249,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 715
+    },
+    {
+      "seed": 180,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 1,
+      "rev": 5,
+      "selectivity": 0.2,
+      "total": 211,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 211,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 181,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 200,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 200,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 49.5
+    },
+    {
+      "seed": 182,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 203,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 203,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 265
+    },
+    {
+      "seed": 183,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 226,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 226,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 184,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 246,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 185,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 256,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 256,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 186,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1545
+    },
+    {
+      "seed": 187,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 268,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 268,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 25.5
+    },
+    {
+      "seed": 188,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 230,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 505.5
+    },
+    {
+      "seed": 189,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 241,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 241,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 8
+    },
+    {
+      "seed": 190,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 196,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 196,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 91.5
+    },
+    {
+      "seed": 191,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 2,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 229,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 105
+    },
+    {
+      "seed": 192,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 258,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 258,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 291.5
+    },
+    {
+      "seed": 193,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 258,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 258,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 194,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 195,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 239,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 239,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 196,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 203,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 203,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 291.5
+    },
+    {
+      "seed": 197,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 237,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 237,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 21.5
+    },
+    {
+      "seed": 198,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 222,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 222,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 199,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 231,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 593.5
+    },
+    {
+      "seed": 200,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 0,
+      "selectivity": 0,
+      "total": 190,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 190,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": -1
+    },
+    {
+      "seed": 201,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 212,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 212,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1212
+    },
+    {
+      "seed": 202,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 198,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 198,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1173.5
+    },
+    {
+      "seed": 203,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 232,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 232,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 375.5
+    },
+    {
+      "seed": 204,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 29.5
+    },
+    {
+      "seed": 205,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 21.5
+    },
+    {
+      "seed": 206,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 220,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 323.5
+    },
+    {
+      "seed": 207,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 253,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 253,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 941.5
+    },
+    {
+      "seed": 208,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 214,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 214,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 209,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 230,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 210,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 257,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 257,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 189.5
+    },
+    {
+      "seed": 211,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 212,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 237,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 237,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 625
+    },
+    {
+      "seed": 213,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 270,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 270,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 277.5
+    },
+    {
+      "seed": 214,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 248,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 248,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 215,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 230,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 216,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 252,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 252,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 195.5
+    },
+    {
+      "seed": 217,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 225,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 218,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 29.5
+    },
+    {
+      "seed": 219,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 260,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 260,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 685.5
+    },
+    {
+      "seed": 220,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 221,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 235,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 235,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 231.5
+    },
+    {
+      "seed": 222,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 209,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 209,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 532
+    },
+    {
+      "seed": 223,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 242,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 242,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 355
+    },
+    {
+      "seed": 224,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 284,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 284,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 225,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 222,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 222,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1729
+    },
+    {
+      "seed": 226,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 212,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 212,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 99.5
+    },
+    {
+      "seed": 227,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 403.5
+    },
+    {
+      "seed": 228,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 261,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 261,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 14.5
+    },
+    {
+      "seed": 229,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 240,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 240,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 133.5
+    },
+    {
+      "seed": 230,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 222,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 222,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1643
+    },
+    {
+      "seed": 231,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 232,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 232,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 441
+    },
+    {
+      "seed": 232,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 217,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 217,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 647.5
+    },
+    {
+      "seed": 233,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 224,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 39.5
+    },
+    {
+      "seed": 234,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 245,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 245,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 429.5
+    },
+    {
+      "seed": 235,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 238,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 238,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1067.5
+    },
+    {
+      "seed": 236,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 236,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 237,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 216,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 216,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1163.5
+    },
+    {
+      "seed": 238,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 238,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 238,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 631.5
+    },
+    {
+      "seed": 239,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 425.5
+    },
+    {
+      "seed": 240,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 216,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 216,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 241,
+      "system": "worm",
+      "bridge": false,
+      "stimulus": "nociception",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 204,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 204,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 42,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 223,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 220,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 303.5
+    },
+    {
+      "seed": 43,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 208,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 207,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 297
+    },
+    {
+      "seed": 44,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 204,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 202,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 45,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 204,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 203,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 25.5
+    },
+    {
+      "seed": 46,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 250,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 248,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 47,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 232,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 48,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 222,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 769.5
+    },
+    {
+      "seed": 49,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 215,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 211,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 131.5
+    },
+    {
+      "seed": 50,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 276,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 274,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 343.5
+    },
+    {
+      "seed": 51,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 241,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 239,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 52,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 205,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 204,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 13
+    },
+    {
+      "seed": 53,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 234,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 33.5
+    },
+    {
+      "seed": 54,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 260,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 257,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 1303.5
+    },
+    {
+      "seed": 55,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 201,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 200,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 173.5
+    },
+    {
+      "seed": 56,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 266,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 261,
+        "fly": 2,
+        "bridge": 3
+      },
+      "latency": 525.5
+    },
+    {
+      "seed": 57,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 259,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 257,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 15
+    },
+    {
+      "seed": 58,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 235,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 125
+    },
+    {
+      "seed": 59,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 202,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 200,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 60,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 253,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 252,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 661.5
+    },
+    {
+      "seed": 61,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 240,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 238,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 62,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 240,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 238,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 63,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 239,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 236,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 64,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 251,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 250,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 65,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 219,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 909
+    },
+    {
+      "seed": 66,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 240,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 238,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 67,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 268,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 267,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 68,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 235,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 325.5
+    },
+    {
+      "seed": 69,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 220,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 218,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 70,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 239,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 237,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 71,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 252,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 248,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 55
+    },
+    {
+      "seed": 72,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 240,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 238,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 873.5
+    },
+    {
+      "seed": 73,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 201,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 199,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 74,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 29.5
+    },
+    {
+      "seed": 75,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 245,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 17
+    },
+    {
+      "seed": 76,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 256,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 255,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 17
+    },
+    {
+      "seed": 77,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 237,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 234,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 31.5
+    },
+    {
+      "seed": 78,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 250,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 248,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 79,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 232,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 229.5
+    },
+    {
+      "seed": 80,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 216,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 215,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 57.5
+    },
+    {
+      "seed": 81,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 207,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 205,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 51.5
+    },
+    {
+      "seed": 82,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 83,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 242,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 209.5
+    },
+    {
+      "seed": 84,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 258,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 254,
+        "fly": 2,
+        "bridge": 2
+      },
+      "latency": 25.5
+    },
+    {
+      "seed": 85,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 226,
+        "fly": 2,
+        "bridge": 3
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 86,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 254,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 253,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 119.5
+    },
+    {
+      "seed": 87,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 221,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 1003.5
+    },
+    {
+      "seed": 88,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 231,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 13
+    },
+    {
+      "seed": 89,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 209,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 208,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 59.5
+    },
+    {
+      "seed": 90,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 207,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 206,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 2421
+    },
+    {
+      "seed": 91,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 231,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 92,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 287,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 278,
+        "fly": 3,
+        "bridge": 6
+      },
+      "latency": 221.5
+    },
+    {
+      "seed": 93,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 228,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 15
+    },
+    {
+      "seed": 94,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 214,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 211,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 19
+    },
+    {
+      "seed": 95,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 2,
+      "selectivity": 0,
+      "total": 206,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 205,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 3005.5
+    },
+    {
+      "seed": 96,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 210,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 209,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 229.5
+    },
+    {
+      "seed": 97,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 245,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 244,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 1935.5
+    },
+    {
+      "seed": 98,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 253,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 251,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 263
+    },
+    {
+      "seed": 99,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 232,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 100,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 254,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 253,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 153.5
+    },
+    {
+      "seed": 101,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 227,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 35.5
+    },
+    {
+      "seed": 102,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 212,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 211,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 1217.5
+    },
+    {
+      "seed": 103,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 243,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 241,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 477.5
+    },
+    {
+      "seed": 104,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 255,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 252,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 639.5
+    },
+    {
+      "seed": 105,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 222,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 221,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 35.5
+    },
+    {
+      "seed": 106,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 223,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 222,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 337
+    },
+    {
+      "seed": 107,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 208,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 205,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7
+    },
+    {
+      "seed": 108,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 228,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 227,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 1335
+    },
+    {
+      "seed": 109,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 256,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 254,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 465.5
+    },
+    {
+      "seed": 110,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 238,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 235,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 135.5
+    },
+    {
+      "seed": 111,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 203,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 201,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 1541
+    },
+    {
+      "seed": 112,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 241,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 240,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 113,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 245,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 243,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 473.5
+    },
+    {
+      "seed": 114,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 202,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 200,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 1619.5
+    },
+    {
+      "seed": 115,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 239,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 238,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 223.5
+    },
+    {
+      "seed": 116,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 218,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 217,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 55.5
+    },
+    {
+      "seed": 117,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 257,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 256,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 15
+    },
+    {
+      "seed": 118,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 212,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 209,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 119,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 197,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 194,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 120,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 247,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 243,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 35.5
+    },
+    {
+      "seed": 121,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 238,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 235,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 122,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 242,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 241,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 709.5
+    },
+    {
+      "seed": 123,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 19.5
+    },
+    {
+      "seed": 124,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 230,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 45.5
+    },
+    {
+      "seed": 125,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 211,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 209,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 1027.5
+    },
+    {
+      "seed": 126,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 244,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 887.5
+    },
+    {
+      "seed": 127,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 262,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 260,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 227.5
+    },
+    {
+      "seed": 128,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 265,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 264,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 1
+    },
+    {
+      "seed": 129,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 213,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 212,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 335.5
+    },
+    {
+      "seed": 130,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 2,
+      "selectivity": 0,
+      "total": 187,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 185,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 2925.5
+    },
+    {
+      "seed": 131,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 226,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 225,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 43.5
+    },
+    {
+      "seed": 132,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 345.5
+    },
+    {
+      "seed": 133,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 2,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 232,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 41.5
+    },
+    {
+      "seed": 134,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 226,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 224,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 1057.5
+    },
+    {
+      "seed": 135,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 231,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 13
+    },
+    {
+      "seed": 136,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 244,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 242,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 137,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 208,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 207,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 138,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 231,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 25.5
+    },
+    {
+      "seed": 139,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 247,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 246,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 140,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 196,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 194,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 141,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 142,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 209,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 206,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 489.5
+    },
+    {
+      "seed": 143,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 243,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 241,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 144,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 274,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 272,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 145,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 258,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 253,
+        "fly": 2,
+        "bridge": 3
+      },
+      "latency": 551.5
+    },
+    {
+      "seed": 146,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 237,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 235,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 147,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 226,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 148,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 228,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 335.5
+    },
+    {
+      "seed": 149,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 199,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 198,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 135.5
+    },
+    {
+      "seed": 150,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 216,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 215,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 602
+    },
+    {
+      "seed": 151,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 213,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 212,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 79
+    },
+    {
+      "seed": 152,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 268,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 265,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7
+    },
+    {
+      "seed": 153,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 214,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 213,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 19
+    },
+    {
+      "seed": 154,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 270,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 269,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 181.5
+    },
+    {
+      "seed": 155,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 227,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 224,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 156,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 270,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 267,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 157,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 212,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 211,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 158,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 261,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 256,
+        "fly": 1,
+        "bridge": 4
+      },
+      "latency": 21.5
+    },
+    {
+      "seed": 159,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 235,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 160,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 161,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 250,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 247,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 417.5
+    },
+    {
+      "seed": 162,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 247,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 243,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 617.5
+    },
+    {
+      "seed": 163,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 227,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 164,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 200,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 199,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 165,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 230,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 173.5
+    },
+    {
+      "seed": 166,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 232,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 230,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 167,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 260,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 258,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 168,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 228,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 753.5
+    },
+    {
+      "seed": 169,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 194,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 193,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 39.5
+    },
+    {
+      "seed": 170,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 226,
+        "fly": 1,
+        "bridge": 4
+      },
+      "latency": 223.5
+    },
+    {
+      "seed": 171,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 233,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 231,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 37.5
+    },
+    {
+      "seed": 172,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 214,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 211,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 1247.5
+    },
+    {
+      "seed": 173,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 262,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 259,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 174,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 247,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 246,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 31.5
+    },
+    {
+      "seed": 175,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 253,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 249,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 176,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 237,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 232,
+        "fly": 1,
+        "bridge": 4
+      },
+      "latency": 1639.5
+    },
+    {
+      "seed": 177,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 221,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 1575.5
+    },
+    {
+      "seed": 178,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 241,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 237,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 113.5
+    },
+    {
+      "seed": 179,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 221,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 220,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 153.5
+    },
+    {
+      "seed": 180,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 235,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 41.5
+    },
+    {
+      "seed": 181,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 215,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 214,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 21.5
+    },
+    {
+      "seed": 182,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 278,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 276,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 51.5
+    },
+    {
+      "seed": 183,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 237,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 235,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 184,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 224,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 703
+    },
+    {
+      "seed": 185,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 275,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 271,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 7
+    },
+    {
+      "seed": 186,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 250,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 246,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 433.5
+    },
+    {
+      "seed": 187,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 249,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 248,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 437
+    },
+    {
+      "seed": 188,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 256,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 254,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 189,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 220,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 218,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 190,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 211,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 209,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 795.5
+    },
+    {
+      "seed": 191,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 251,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 250,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 192,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 217,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 215,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 603.5
+    },
+    {
+      "seed": 193,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 208,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 205,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 1026
+    },
+    {
+      "seed": 194,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 248,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 244,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 195,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 192,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 191,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 2389
+    },
+    {
+      "seed": 196,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 226,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 49.5
+    },
+    {
+      "seed": 197,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 240,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 238,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 198,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 233,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 39.5
+    },
+    {
+      "seed": 199,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 249,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 244,
+        "fly": 2,
+        "bridge": 3
+      },
+      "latency": 13
+    },
+    {
+      "seed": 200,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 569
+    },
+    {
+      "seed": 201,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 211,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 208,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 25.5
+    },
+    {
+      "seed": 202,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 203,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 201,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 203,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 235,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 234,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 421.5
+    },
+    {
+      "seed": 204,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 278,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 275,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 205,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 211,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 210,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 206,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 258,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 253,
+        "fly": 2,
+        "bridge": 3
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 207,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 236,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 233,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 208,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 178,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 177,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 55.5
+    },
+    {
+      "seed": 209,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 210,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 207,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 205,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 211,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 1,
+      "selectivity": 0,
+      "total": 226,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 224,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 697.5
+    },
+    {
+      "seed": 212,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 250,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 245,
+        "fly": 2,
+        "bridge": 3
+      },
+      "latency": 8
+    },
+    {
+      "seed": 213,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 271,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 268,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 537.5
+    },
+    {
+      "seed": 214,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 240,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 239,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 59.5
+    },
+    {
+      "seed": 215,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 208,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 205,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 15
+    },
+    {
+      "seed": 216,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 216,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 214,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 1899.5
+    },
+    {
+      "seed": 217,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 225,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 223,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 24
+    },
+    {
+      "seed": 218,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 204,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 202,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 1179.5
+    },
+    {
+      "seed": 219,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 229,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 977.5
+    },
+    {
+      "seed": 220,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 1,
+      "selectivity": 0,
+      "total": 183,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 180,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 2203.5
+    },
+    {
+      "seed": 221,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 271,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 267,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 2053
+    },
+    {
+      "seed": 222,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 215,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 211,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 1397.5
+    },
+    {
+      "seed": 223,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 253,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 251,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 49.5
+    },
+    {
+      "seed": 224,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 231,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 228,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 577
+    },
+    {
+      "seed": 225,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 232,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 43.5
+    },
+    {
+      "seed": 226,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 269,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 268,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 641.5
+    },
+    {
+      "seed": 227,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 234,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 232,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 361.5
+    },
+    {
+      "seed": 228,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 254,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 250,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 161.5
+    },
+    {
+      "seed": 229,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 255,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 252,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 15
+    },
+    {
+      "seed": 230,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 209,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 207,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 1479
+    },
+    {
+      "seed": 231,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 194,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 193,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 232,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 229,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 227,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 19
+    },
+    {
+      "seed": 233,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 3,
+      "selectivity": 0,
+      "total": 217,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 216,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 203.5
+    },
+    {
+      "seed": 234,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 245,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 244,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 235,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 229,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 39
+    },
+    {
+      "seed": 236,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 4,
+      "selectivity": 0,
+      "total": 202,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 199,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 13
+    },
+    {
+      "seed": 237,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 243,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 241,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 238,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 5,
+      "selectivity": 0,
+      "total": 213,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 212,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 1083.5
+    },
+    {
+      "seed": 239,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 246,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 245,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 240,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 228,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 226,
+        "fly": 1,
+        "bridge": 1
+      },
+      "latency": 333
+    },
+    {
+      "seed": 241,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "conflict",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 230,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 229,
+        "fly": 1,
+        "bridge": 0
+      },
+      "latency": 1215.5
+    }
+  ]
+}

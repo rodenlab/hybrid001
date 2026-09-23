@@ -1,0 +1,7209 @@
+{
+  "experiment": "bridge-ablation",
+  "config": {
+    "trials": 200,
+    "seed": 42
+  },
+  "data": [
+    {
+      "seed": 42,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 534,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 530,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 1013.5
+    },
+    {
+      "seed": 43,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 590,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 586,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 71.5
+    },
+    {
+      "seed": 44,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 536,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 534,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1945.5
+    },
+    {
+      "seed": 45,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 554,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 552,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1795.5
+    },
+    {
+      "seed": 46,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 546,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 544,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 2792
+    },
+    {
+      "seed": 47,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 526,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 525,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 2211.5
+    },
+    {
+      "seed": 48,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 603,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 598,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 651.5
+    },
+    {
+      "seed": 49,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 599,
+      "bridge_spikes": 8,
+      "by_system": {
+        "worm": 591,
+        "fly": 0,
+        "bridge": 8
+      },
+      "latency": 1343.5
+    },
+    {
+      "seed": 50,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 589,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 586,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 213.5
+    },
+    {
+      "seed": 51,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 1,
+      "rev": 23,
+      "selectivity": 0.043478260869565216,
+      "total": 594,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 591,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 155.5
+    },
+    {
+      "seed": 52,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 583,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 579,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 803.5
+    },
+    {
+      "seed": 53,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 568,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 565,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 1263.5
+    },
+    {
+      "seed": 54,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 550,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 546,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 1109.5
+    },
+    {
+      "seed": 55,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 505,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 499,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 761.5
+    },
+    {
+      "seed": 56,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 522,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 519,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 127
+    },
+    {
+      "seed": 57,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 579,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 576,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 45
+    },
+    {
+      "seed": 58,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 533,
+      "bridge_spikes": 7,
+      "by_system": {
+        "worm": 526,
+        "fly": 0,
+        "bridge": 7
+      },
+      "latency": 721
+    },
+    {
+      "seed": 59,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 539,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 535,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 1237.5
+    },
+    {
+      "seed": 60,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 602,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 598,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 351.5
+    },
+    {
+      "seed": 61,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 580,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 57.5
+    },
+    {
+      "seed": 62,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 571,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 567,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 381.5
+    },
+    {
+      "seed": 63,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 587,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 585,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 191.5
+    },
+    {
+      "seed": 64,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 611,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 608,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 781
+    },
+    {
+      "seed": 65,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 540,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 537,
+        "fly": 1,
+        "bridge": 2
+      },
+      "latency": 909
+    },
+    {
+      "seed": 66,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 571,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 568,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 991.5
+    },
+    {
+      "seed": 67,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 602,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 600,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 771.5
+    },
+    {
+      "seed": 68,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 551,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 548,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 943.5
+    },
+    {
+      "seed": 69,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 578,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 576,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 479.5
+    },
+    {
+      "seed": 70,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 529,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 525,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 47.5
+    },
+    {
+      "seed": 71,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 611,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 606,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 413.5
+    },
+    {
+      "seed": 72,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 609,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 604,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 561.5
+    },
+    {
+      "seed": 73,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 541,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 535,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 55.5
+    },
+    {
+      "seed": 74,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 583,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 175.5
+    },
+    {
+      "seed": 75,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 534,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 533,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 999.5
+    },
+    {
+      "seed": 76,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 605,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 602,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 113.5
+    },
+    {
+      "seed": 77,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 617,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 610,
+        "fly": 1,
+        "bridge": 6
+      },
+      "latency": 31.5
+    },
+    {
+      "seed": 78,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 514,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 512,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 2517.5
+    },
+    {
+      "seed": 79,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 536,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 533,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 71.5
+    },
+    {
+      "seed": 80,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 520,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 519,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 119.5
+    },
+    {
+      "seed": 81,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 545,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 543,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 799.5
+    },
+    {
+      "seed": 82,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 554,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 549,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 1703.5
+    },
+    {
+      "seed": 83,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 617,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 610,
+        "fly": 2,
+        "bridge": 5
+      },
+      "latency": 383
+    },
+    {
+      "seed": 84,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 585,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 949.5
+    },
+    {
+      "seed": 85,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 521,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 516,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 7.5
+    },
+    {
+      "seed": 86,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 554,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 551,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 49.5
+    },
+    {
+      "seed": 87,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 572,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 568,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 341.5
+    },
+    {
+      "seed": 88,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 233
+    },
+    {
+      "seed": 89,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 554,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 1537.5
+    },
+    {
+      "seed": 90,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 541,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 538,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 279.5
+    },
+    {
+      "seed": 91,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 519,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 517,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 71.5
+    },
+    {
+      "seed": 92,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 595,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 587,
+        "fly": 2,
+        "bridge": 6
+      },
+      "latency": 1559.5
+    },
+    {
+      "seed": 93,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 585,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 339.5
+    },
+    {
+      "seed": 94,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 521,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 518,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 153.5
+    },
+    {
+      "seed": 95,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 572,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 568,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 1873.5
+    },
+    {
+      "seed": 96,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 516,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 511,
+        "fly": 1,
+        "bridge": 4
+      },
+      "latency": 723
+    },
+    {
+      "seed": 97,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 561,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 159.5
+    },
+    {
+      "seed": 98,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 567,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 562,
+        "fly": 1,
+        "bridge": 4
+      },
+      "latency": 1901.5
+    },
+    {
+      "seed": 99,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 526,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 520,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 569.5
+    },
+    {
+      "seed": 100,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 543,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 542,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 697
+    },
+    {
+      "seed": 101,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 554,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 551,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 467.5
+    },
+    {
+      "seed": 102,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 599,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 594,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 77.5
+    },
+    {
+      "seed": 103,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 582,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 653.5
+    },
+    {
+      "seed": 104,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 578,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 575,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 85.5
+    },
+    {
+      "seed": 105,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 553,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 549,
+        "fly": 1,
+        "bridge": 3
+      },
+      "latency": 289.5
+    },
+    {
+      "seed": 106,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 572,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 669
+    },
+    {
+      "seed": 107,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 561,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 556,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 1647.5
+    },
+    {
+      "seed": 108,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 602,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 598,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 305.5
+    },
+    {
+      "seed": 109,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 549,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 546,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 841.5
+    },
+    {
+      "seed": 110,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 587,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 1619.5
+    },
+    {
+      "seed": 111,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 545,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 544,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 641.5
+    },
+    {
+      "seed": 112,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 637,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 633,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 19
+    },
+    {
+      "seed": 113,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 568,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 562,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 345.5
+    },
+    {
+      "seed": 114,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 27,
+      "selectivity": 0,
+      "total": 659,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 654,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 805.5
+    },
+    {
+      "seed": 115,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 577,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 574,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 1497.5
+    },
+    {
+      "seed": 116,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 563,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 562,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 935.5
+    },
+    {
+      "seed": 117,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 594,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 588,
+        "fly": 1,
+        "bridge": 5
+      },
+      "latency": 719
+    },
+    {
+      "seed": 118,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 538,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 534,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 653.5
+    },
+    {
+      "seed": 119,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 589,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 586,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 579.5
+    },
+    {
+      "seed": 120,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 576,
+      "bridge_spikes": 7,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 7
+      },
+      "latency": 107
+    },
+    {
+      "seed": 121,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 513,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 512,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 2003.5
+    },
+    {
+      "seed": 122,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 7,
+      "by_system": {
+        "worm": 548,
+        "fly": 0,
+        "bridge": 7
+      },
+      "latency": 855.5
+    },
+    {
+      "seed": 123,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 539,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 534,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 963.5
+    },
+    {
+      "seed": 124,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 608,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 604,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 909.5
+    },
+    {
+      "seed": 125,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 568,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 565,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 353.5
+    },
+    {
+      "seed": 126,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 531,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 530,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 213.5
+    },
+    {
+      "seed": 127,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 544,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 539,
+        "fly": 1,
+        "bridge": 4
+      },
+      "latency": 1111.5
+    },
+    {
+      "seed": 128,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 527,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 524,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 1
+    },
+    {
+      "seed": 129,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 625,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 621,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 293.5
+    },
+    {
+      "seed": 130,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 625,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 621,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 81.5
+    },
+    {
+      "seed": 131,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 538,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 536,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 61.5
+    },
+    {
+      "seed": 132,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 546,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 545,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 311.5
+    },
+    {
+      "seed": 133,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 535,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 533,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 93.5
+    },
+    {
+      "seed": 134,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 590,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 587,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 505.5
+    },
+    {
+      "seed": 135,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 522,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 517,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 765
+    },
+    {
+      "seed": 136,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 565,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 562,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 917.5
+    },
+    {
+      "seed": 137,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 573,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 15
+    },
+    {
+      "seed": 138,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 590,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1297.5
+    },
+    {
+      "seed": 139,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 528,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 524,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 555.5
+    },
+    {
+      "seed": 140,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 590,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 588,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 453.5
+    },
+    {
+      "seed": 141,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 571,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 566,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 2581.5
+    },
+    {
+      "seed": 142,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 544,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 539,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 1353
+    },
+    {
+      "seed": 143,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 526,
+      "bridge_spikes": 9,
+      "by_system": {
+        "worm": 517,
+        "fly": 0,
+        "bridge": 9
+      },
+      "latency": 203.5
+    },
+    {
+      "seed": 144,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 597,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 595,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 919.5
+    },
+    {
+      "seed": 145,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 554,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 275.5
+    },
+    {
+      "seed": 146,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 575,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 251.5
+    },
+    {
+      "seed": 147,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 575,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 363.5
+    },
+    {
+      "seed": 148,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 564,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 561,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 255.5
+    },
+    {
+      "seed": 149,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 552,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 546,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 291.5
+    },
+    {
+      "seed": 150,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 533,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 530,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 1531.5
+    },
+    {
+      "seed": 151,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 570,
+      "bridge_spikes": 7,
+      "by_system": {
+        "worm": 563,
+        "fly": 0,
+        "bridge": 7
+      },
+      "latency": 141.5
+    },
+    {
+      "seed": 152,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 590,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 588,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 293.5
+    },
+    {
+      "seed": 153,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 538,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 536,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 827.5
+    },
+    {
+      "seed": 154,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 543,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 537,
+        "fly": 1,
+        "bridge": 5
+      },
+      "latency": 23
+    },
+    {
+      "seed": 155,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 573,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 16
+    },
+    {
+      "seed": 156,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 614,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 610,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 881.5
+    },
+    {
+      "seed": 157,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 571,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 565,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 725
+    },
+    {
+      "seed": 158,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 582,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 578,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 697.5
+    },
+    {
+      "seed": 159,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 532,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 529,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 211
+    },
+    {
+      "seed": 160,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 610,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 605,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 137.5
+    },
+    {
+      "seed": 161,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 599,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 595,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 607.5
+    },
+    {
+      "seed": 162,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 586,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 863.5
+    },
+    {
+      "seed": 163,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 563,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 543.5
+    },
+    {
+      "seed": 164,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 604,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 601,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 291.5
+    },
+    {
+      "seed": 165,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 653,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 649,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 579.5
+    },
+    {
+      "seed": 166,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 558,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 556,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 97.5
+    },
+    {
+      "seed": 167,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 534,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 528,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 779.5
+    },
+    {
+      "seed": 168,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 546,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 544,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 809.5
+    },
+    {
+      "seed": 169,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 575,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 574,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 927
+    },
+    {
+      "seed": 170,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 497,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 491,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 647
+    },
+    {
+      "seed": 171,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 527,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 524,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 951.5
+    },
+    {
+      "seed": 172,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 572,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 39.5
+    },
+    {
+      "seed": 173,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 549,
+        "fly": 1,
+        "bridge": 5
+      },
+      "latency": 465
+    },
+    {
+      "seed": 174,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 581,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 999.5
+    },
+    {
+      "seed": 175,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 554,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 552,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1175
+    },
+    {
+      "seed": 176,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 563,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 561,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 519.5
+    },
+    {
+      "seed": 177,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 554,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 155.5
+    },
+    {
+      "seed": 178,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 550,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 548,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 205.5
+    },
+    {
+      "seed": 179,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 598,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 592,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 573.5
+    },
+    {
+      "seed": 180,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 561,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 883.5
+    },
+    {
+      "seed": 181,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 574,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 572,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1267.5
+    },
+    {
+      "seed": 182,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 596,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 594,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 205.5
+    },
+    {
+      "seed": 183,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 588,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 586,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 175
+    },
+    {
+      "seed": 184,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 595,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 590,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 17
+    },
+    {
+      "seed": 185,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 606,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 601,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 9
+    },
+    {
+      "seed": 186,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 569,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 563,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 669
+    },
+    {
+      "seed": 187,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 611,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 609,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 295.5
+    },
+    {
+      "seed": 188,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 598,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 595,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 760
+    },
+    {
+      "seed": 189,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 578,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 574,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 789.5
+    },
+    {
+      "seed": 190,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 565,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 561,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 263.5
+    },
+    {
+      "seed": 191,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 494,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 490,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 21
+    },
+    {
+      "seed": 192,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 530,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 529,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 565.5
+    },
+    {
+      "seed": 193,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 653,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 649,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 385.5
+    },
+    {
+      "seed": 194,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 575,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 15
+    },
+    {
+      "seed": 195,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 620,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 618,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 173.5
+    },
+    {
+      "seed": 196,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 659,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 654,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 827.5
+    },
+    {
+      "seed": 197,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 628,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 626,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 307.5
+    },
+    {
+      "seed": 198,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 564,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 453.5
+    },
+    {
+      "seed": 199,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 547,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 544,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 853.5
+    },
+    {
+      "seed": 200,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 556,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 554,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1399.5
+    },
+    {
+      "seed": 201,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 581,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 575,
+        "fly": 1,
+        "bridge": 5
+      },
+      "latency": 823.5
+    },
+    {
+      "seed": 202,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 594,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 590,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 103.5
+    },
+    {
+      "seed": 203,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 520,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 514,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 2287.5
+    },
+    {
+      "seed": 204,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 629,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 622,
+        "fly": 1,
+        "bridge": 6
+      },
+      "latency": 521
+    },
+    {
+      "seed": 205,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 7,
+      "by_system": {
+        "worm": 584,
+        "fly": 1,
+        "bridge": 7
+      },
+      "latency": 161.5
+    },
+    {
+      "seed": 206,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 551,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 549.5
+    },
+    {
+      "seed": 207,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 587,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 959
+    },
+    {
+      "seed": 208,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 611,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 607,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 1727.5
+    },
+    {
+      "seed": 209,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 536,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 531,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 9.5
+    },
+    {
+      "seed": 210,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 571,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 566,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 739.5
+    },
+    {
+      "seed": 211,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 604,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 602,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 335
+    },
+    {
+      "seed": 212,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 569,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 566,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 331.5
+    },
+    {
+      "seed": 213,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 637,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 632,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 537.5
+    },
+    {
+      "seed": 214,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 579,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 576,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 645.5
+    },
+    {
+      "seed": 215,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 595,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 590,
+        "fly": 1,
+        "bridge": 4
+      },
+      "latency": 433.5
+    },
+    {
+      "seed": 216,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 557,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 554,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 271
+    },
+    {
+      "seed": 217,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 547,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 542,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 609.5
+    },
+    {
+      "seed": 218,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 604,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 599,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 1865
+    },
+    {
+      "seed": 219,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 590,
+      "bridge_spikes": 7,
+      "by_system": {
+        "worm": 583,
+        "fly": 0,
+        "bridge": 7
+      },
+      "latency": 779.5
+    },
+    {
+      "seed": 220,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 534,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 528,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 1181.5
+    },
+    {
+      "seed": 221,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 587,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 1219.5
+    },
+    {
+      "seed": 222,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 561,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 43
+    },
+    {
+      "seed": 223,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 558,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 555,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 369
+    },
+    {
+      "seed": 224,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 573,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 568,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 895.5
+    },
+    {
+      "seed": 225,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 531,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 528,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 95.5
+    },
+    {
+      "seed": 226,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 552,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 293.5
+    },
+    {
+      "seed": 227,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 560,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 577.5
+    },
+    {
+      "seed": 228,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 553,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 548,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 2387.5
+    },
+    {
+      "seed": 229,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 533,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 529,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 239.5
+    },
+    {
+      "seed": 230,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 552,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1055.5
+    },
+    {
+      "seed": 231,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 537,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 532,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 20
+    },
+    {
+      "seed": 232,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 596,
+      "bridge_spikes": 1,
+      "by_system": {
+        "worm": 595,
+        "fly": 0,
+        "bridge": 1
+      },
+      "latency": 12.5
+    },
+    {
+      "seed": 233,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 1,
+      "rev": 17,
+      "selectivity": 0.058823529411764705,
+      "total": 526,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 524,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 777.5
+    },
+    {
+      "seed": 234,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 618,
+      "bridge_spikes": 3,
+      "by_system": {
+        "worm": 615,
+        "fly": 0,
+        "bridge": 3
+      },
+      "latency": 121.5
+    },
+    {
+      "seed": 235,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 529,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 527,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 985.5
+    },
+    {
+      "seed": 236,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 570,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 568,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 99.5
+    },
+    {
+      "seed": 237,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 560,
+      "bridge_spikes": 6,
+      "by_system": {
+        "worm": 554,
+        "fly": 0,
+        "bridge": 6
+      },
+      "latency": 1365.5
+    },
+    {
+      "seed": 238,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 570,
+      "bridge_spikes": 4,
+      "by_system": {
+        "worm": 566,
+        "fly": 0,
+        "bridge": 4
+      },
+      "latency": 113.5
+    },
+    {
+      "seed": 239,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 6,
+      "selectivity": 0,
+      "total": 482,
+      "bridge_spikes": 2,
+      "by_system": {
+        "worm": 480,
+        "fly": 0,
+        "bridge": 2
+      },
+      "latency": 1143.5
+    },
+    {
+      "seed": 240,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 608,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 603,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 23
+    },
+    {
+      "seed": 241,
+      "system": "hybrid",
+      "bridge": true,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 5,
+      "by_system": {
+        "worm": 587,
+        "fly": 0,
+        "bridge": 5
+      },
+      "latency": 2049.5
+    },
+    {
+      "seed": 42,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 595,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 595,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 383.5
+    },
+    {
+      "seed": 43,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 617,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 617,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1147.5
+    },
+    {
+      "seed": 44,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 533,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 533,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 509.5
+    },
+    {
+      "seed": 45,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 527,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 527,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 3313.5
+    },
+    {
+      "seed": 46,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 546,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 546,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1905
+    },
+    {
+      "seed": 47,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 508,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 508,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 921
+    },
+    {
+      "seed": 48,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 589,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 589,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 315.5
+    },
+    {
+      "seed": 49,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 577,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 523.5
+    },
+    {
+      "seed": 50,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 558,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 558,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1985.5
+    },
+    {
+      "seed": 51,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 585,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 585,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 25
+    },
+    {
+      "seed": 52,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 528,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 528,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 43.5
+    },
+    {
+      "seed": 53,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 545,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 545,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 783.5
+    },
+    {
+      "seed": 54,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 541,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 541,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 477
+    },
+    {
+      "seed": 55,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 530,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 530,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 699.5
+    },
+    {
+      "seed": 56,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 538,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 538,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 31.5
+    },
+    {
+      "seed": 57,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 603,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 603,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 7
+    },
+    {
+      "seed": 58,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 596,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 596,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 299.5
+    },
+    {
+      "seed": 59,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 632,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 632,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1513
+    },
+    {
+      "seed": 60,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 558,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 558,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 23.5
+    },
+    {
+      "seed": 61,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 532,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 532,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 349.5
+    },
+    {
+      "seed": 62,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 620,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 620,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 733.5
+    },
+    {
+      "seed": 63,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 517,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 517,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1923.5
+    },
+    {
+      "seed": 64,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 535,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 535,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 555.5
+    },
+    {
+      "seed": 65,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 552,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 552,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 449.5
+    },
+    {
+      "seed": 66,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 585,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 585,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 479.5
+    },
+    {
+      "seed": 67,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 505,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 505,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 729.5
+    },
+    {
+      "seed": 68,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 545,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 545,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 87.5
+    },
+    {
+      "seed": 69,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 559,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 429.5
+    },
+    {
+      "seed": 70,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 570,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 807.5
+    },
+    {
+      "seed": 71,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 29,
+      "selectivity": 0,
+      "total": 627,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 627,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 307
+    },
+    {
+      "seed": 72,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 582,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 169.5
+    },
+    {
+      "seed": 73,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 517,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 517,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 481
+    },
+    {
+      "seed": 74,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 560,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 560,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2463
+    },
+    {
+      "seed": 75,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 616,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 616,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 649.5
+    },
+    {
+      "seed": 76,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 579,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 579,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 55.5
+    },
+    {
+      "seed": 77,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 584,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 584,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1387.5
+    },
+    {
+      "seed": 78,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 544,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 544,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 767
+    },
+    {
+      "seed": 79,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 569,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 263.5
+    },
+    {
+      "seed": 80,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 546,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 546,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 583.5
+    },
+    {
+      "seed": 81,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 591,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 591,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 475.5
+    },
+    {
+      "seed": 82,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 502,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 502,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 249.5
+    },
+    {
+      "seed": 83,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 524,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 524,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 891.5
+    },
+    {
+      "seed": 84,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 478,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 478,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1229.5
+    },
+    {
+      "seed": 85,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 574,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 574,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 987
+    },
+    {
+      "seed": 86,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 581,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 581,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 57.5
+    },
+    {
+      "seed": 87,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 539,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 539,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 631
+    },
+    {
+      "seed": 88,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 645,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 645,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 441
+    },
+    {
+      "seed": 89,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 622,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 622,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 185
+    },
+    {
+      "seed": 90,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 539,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 539,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 285.5
+    },
+    {
+      "seed": 91,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 567,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 567,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 305.5
+    },
+    {
+      "seed": 92,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 586,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 586,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 211.5
+    },
+    {
+      "seed": 93,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 523,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 523,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 43.5
+    },
+    {
+      "seed": 94,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 536,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 536,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 823.5
+    },
+    {
+      "seed": 95,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 536,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 536,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 757.5
+    },
+    {
+      "seed": 96,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 570,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 469.5
+    },
+    {
+      "seed": 97,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 550,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1283.5
+    },
+    {
+      "seed": 98,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 553,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 553,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 247.5
+    },
+    {
+      "seed": 99,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 531,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 531,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 477.5
+    },
+    {
+      "seed": 100,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 592,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 11
+    },
+    {
+      "seed": 101,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 541,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 541,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 0.5
+    },
+    {
+      "seed": 102,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 563,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 563,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 133.5
+    },
+    {
+      "seed": 103,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 623,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 623,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 57
+    },
+    {
+      "seed": 104,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 555,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1987.5
+    },
+    {
+      "seed": 105,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 577,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 861.5
+    },
+    {
+      "seed": 106,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 634,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 634,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 431.5
+    },
+    {
+      "seed": 107,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 552,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 552,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 407.5
+    },
+    {
+      "seed": 108,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 7,
+      "selectivity": 0,
+      "total": 493,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 493,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 747.5
+    },
+    {
+      "seed": 109,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 532,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 532,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 295.5
+    },
+    {
+      "seed": 110,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 28,
+      "selectivity": 0,
+      "total": 601,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 601,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1069.5
+    },
+    {
+      "seed": 111,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 520,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 520,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2787.5
+    },
+    {
+      "seed": 112,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 505,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 505,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 18
+    },
+    {
+      "seed": 113,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 511,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 511,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 287.5
+    },
+    {
+      "seed": 114,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 609,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 609,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 837.5
+    },
+    {
+      "seed": 115,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 532,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 532,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 267.5
+    },
+    {
+      "seed": 116,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 532,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 532,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 711.5
+    },
+    {
+      "seed": 117,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 566,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 566,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 495.5
+    },
+    {
+      "seed": 118,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 569,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1095.5
+    },
+    {
+      "seed": 119,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 507,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 507,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 201.5
+    },
+    {
+      "seed": 120,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 555,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 555,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1131.5
+    },
+    {
+      "seed": 121,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 601,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 601,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 71.5
+    },
+    {
+      "seed": 122,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 27,
+      "selectivity": 0,
+      "total": 619,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 619,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1377
+    },
+    {
+      "seed": 123,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 592,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 369.5
+    },
+    {
+      "seed": 124,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 506,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 506,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1779.5
+    },
+    {
+      "seed": 125,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 569,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 279
+    },
+    {
+      "seed": 126,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 580,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 580,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 297.5
+    },
+    {
+      "seed": 127,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 577,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 177.5
+    },
+    {
+      "seed": 128,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 515,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 515,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 613.5
+    },
+    {
+      "seed": 129,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 547,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 547,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 773
+    },
+    {
+      "seed": 130,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 556,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 556,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 505.5
+    },
+    {
+      "seed": 131,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 514,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 514,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 795.5
+    },
+    {
+      "seed": 132,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 640,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 640,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 635.5
+    },
+    {
+      "seed": 133,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 550,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 17
+    },
+    {
+      "seed": 134,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 609,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 609,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 839
+    },
+    {
+      "seed": 135,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 511,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 511,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1045.5
+    },
+    {
+      "seed": 136,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 488,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 488,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 363
+    },
+    {
+      "seed": 137,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 634,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 634,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 281.5
+    },
+    {
+      "seed": 138,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 605,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 605,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 113.5
+    },
+    {
+      "seed": 139,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 588,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 588,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 61.5
+    },
+    {
+      "seed": 140,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 540,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 540,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 191.5
+    },
+    {
+      "seed": 141,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 567,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 567,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 761.5
+    },
+    {
+      "seed": 142,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 530,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 530,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 371.5
+    },
+    {
+      "seed": 143,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 568,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 568,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 881.5
+    },
+    {
+      "seed": 144,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 603,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 603,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 201.5
+    },
+    {
+      "seed": 145,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 545,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 545,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 67
+    },
+    {
+      "seed": 146,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 593,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 593,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 873.5
+    },
+    {
+      "seed": 147,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 577,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 577,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 605
+    },
+    {
+      "seed": 148,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 535,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 535,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 11
+    },
+    {
+      "seed": 149,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 599,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 599,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1915
+    },
+    {
+      "seed": 150,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 576,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 576,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 211.5
+    },
+    {
+      "seed": 151,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 529,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 529,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 0.5
+    },
+    {
+      "seed": 152,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 583,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 583,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 969.5
+    },
+    {
+      "seed": 153,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 522,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 522,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 439
+    },
+    {
+      "seed": 154,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 580,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 580,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 33.5
+    },
+    {
+      "seed": 155,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 535,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 535,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 409.5
+    },
+    {
+      "seed": 156,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 552,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 552,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2897.5
+    },
+    {
+      "seed": 157,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 26,
+      "selectivity": 0,
+      "total": 617,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 617,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 643
+    },
+    {
+      "seed": 158,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 566,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 566,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 397.5
+    },
+    {
+      "seed": 159,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 598,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 598,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 225.5
+    },
+    {
+      "seed": 160,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 649,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 649,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 935.5
+    },
+    {
+      "seed": 161,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 590,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 590,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 353
+    },
+    {
+      "seed": 162,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 572,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 572,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 485
+    },
+    {
+      "seed": 163,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 602,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 602,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 795
+    },
+    {
+      "seed": 164,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 1,
+      "rev": 32,
+      "selectivity": 0.03125,
+      "total": 640,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 640,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 239.5
+    },
+    {
+      "seed": 165,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 572,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 572,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 105.5
+    },
+    {
+      "seed": 166,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 516,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 516,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 481.5
+    },
+    {
+      "seed": 167,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 550,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 887.5
+    },
+    {
+      "seed": 168,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 538,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 538,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 931.5
+    },
+    {
+      "seed": 169,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 516,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 516,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1227.5
+    },
+    {
+      "seed": 170,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 516,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 516,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 3889.5
+    },
+    {
+      "seed": 171,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 582,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 323.5
+    },
+    {
+      "seed": 172,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 584,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 584,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 247.5
+    },
+    {
+      "seed": 173,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 550,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 417.5
+    },
+    {
+      "seed": 174,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 521,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 521,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 547.5
+    },
+    {
+      "seed": 175,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 586,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 586,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 875.5
+    },
+    {
+      "seed": 176,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 583,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 583,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 157.5
+    },
+    {
+      "seed": 177,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 542,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 542,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 917.5
+    },
+    {
+      "seed": 178,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 534,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 534,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2173.5
+    },
+    {
+      "seed": 179,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 552,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 552,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 895
+    },
+    {
+      "seed": 180,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 537,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 537,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 871.5
+    },
+    {
+      "seed": 181,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 575,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 575,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 549.5
+    },
+    {
+      "seed": 182,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 525,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 525,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 193.5
+    },
+    {
+      "seed": 183,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 28,
+      "selectivity": 0,
+      "total": 603,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 603,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 27.5
+    },
+    {
+      "seed": 184,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 615,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 615,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 631.5
+    },
+    {
+      "seed": 185,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 21,
+      "selectivity": 0,
+      "total": 565,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 565,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 73
+    },
+    {
+      "seed": 186,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 617,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 617,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 51.5
+    },
+    {
+      "seed": 187,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 591,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 591,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2277.5
+    },
+    {
+      "seed": 188,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 476,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 476,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 337.5
+    },
+    {
+      "seed": 189,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 596,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 596,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 53.5
+    },
+    {
+      "seed": 190,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 29,
+      "selectivity": 0,
+      "total": 664,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 664,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 81.5
+    },
+    {
+      "seed": 191,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 605,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 605,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 101.5
+    },
+    {
+      "seed": 192,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 564,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 564,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 802.5
+    },
+    {
+      "seed": 193,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 545,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 545,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1273.5
+    },
+    {
+      "seed": 194,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 581,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 581,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 137.5
+    },
+    {
+      "seed": 195,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 570,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 527.5
+    },
+    {
+      "seed": 196,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 622,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 622,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1149.5
+    },
+    {
+      "seed": 197,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 558,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 558,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 785.5
+    },
+    {
+      "seed": 198,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 549,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 549,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 29.5
+    },
+    {
+      "seed": 199,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 559,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 919.5
+    },
+    {
+      "seed": 200,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 547,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 547,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1005.5
+    },
+    {
+      "seed": 201,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 560,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 560,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 521.5
+    },
+    {
+      "seed": 202,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 530,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 530,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1199.5
+    },
+    {
+      "seed": 203,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 556,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 556,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1221.5
+    },
+    {
+      "seed": 204,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 643,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 643,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 389.5
+    },
+    {
+      "seed": 205,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 569,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1719.5
+    },
+    {
+      "seed": 206,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 550,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 550,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 195.5
+    },
+    {
+      "seed": 207,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 527,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 527,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 153.5
+    },
+    {
+      "seed": 208,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 582,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 943.5
+    },
+    {
+      "seed": 209,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 612,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 612,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1483
+    },
+    {
+      "seed": 210,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 628,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 628,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 45.5
+    },
+    {
+      "seed": 211,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 524,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 524,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 2713.5
+    },
+    {
+      "seed": 212,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 601,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 601,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1519.5
+    },
+    {
+      "seed": 213,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 588,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 588,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1247.5
+    },
+    {
+      "seed": 214,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 23,
+      "selectivity": 0,
+      "total": 591,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 591,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 51.5
+    },
+    {
+      "seed": 215,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 17,
+      "selectivity": 0,
+      "total": 583,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 583,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 143.5
+    },
+    {
+      "seed": 216,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 18,
+      "selectivity": 0,
+      "total": 564,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 564,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 537.5
+    },
+    {
+      "seed": 217,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 619,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 619,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 473.5
+    },
+    {
+      "seed": 218,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 572,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 572,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1033.5
+    },
+    {
+      "seed": 219,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 11,
+      "selectivity": 0,
+      "total": 515,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 515,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 591.5
+    },
+    {
+      "seed": 220,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 568,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 568,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 791.5
+    },
+    {
+      "seed": 221,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 10,
+      "selectivity": 0,
+      "total": 533,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 533,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 487.5
+    },
+    {
+      "seed": 222,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 22,
+      "selectivity": 0,
+      "total": 574,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 574,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 991.5
+    },
+    {
+      "seed": 223,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 584,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 584,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1093.5
+    },
+    {
+      "seed": 224,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 518,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 518,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 315.5
+    },
+    {
+      "seed": 225,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 557,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 557,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 733.5
+    },
+    {
+      "seed": 226,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 25,
+      "selectivity": 0,
+      "total": 627,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 627,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 667.5
+    },
+    {
+      "seed": 227,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 16,
+      "selectivity": 0,
+      "total": 562,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 562,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1149.5
+    },
+    {
+      "seed": 228,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 559,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 559,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 517.5
+    },
+    {
+      "seed": 229,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 14,
+      "selectivity": 0,
+      "total": 543,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 543,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1119.5
+    },
+    {
+      "seed": 230,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 569,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 569,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 453.5
+    },
+    {
+      "seed": 231,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 582,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 582,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 30
+    },
+    {
+      "seed": 232,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 504,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 504,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 101.5
+    },
+    {
+      "seed": 233,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 9,
+      "selectivity": 0,
+      "total": 549,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 549,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 343.5
+    },
+    {
+      "seed": 234,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 24,
+      "selectivity": 0,
+      "total": 592,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 592,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 135.5
+    },
+    {
+      "seed": 235,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 580,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 580,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 795
+    },
+    {
+      "seed": 236,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 19,
+      "selectivity": 0,
+      "total": 596,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 596,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 275.5
+    },
+    {
+      "seed": 237,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 20,
+      "selectivity": 0,
+      "total": 600,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 600,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 889
+    },
+    {
+      "seed": 238,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 8,
+      "selectivity": 0,
+      "total": 518,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 518,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1019.5
+    },
+    {
+      "seed": 239,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 12,
+      "selectivity": 0,
+      "total": 570,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 570,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1075.5
+    },
+    {
+      "seed": 240,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 15,
+      "selectivity": 0,
+      "total": 549,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 549,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1047
+    },
+    {
+      "seed": 241,
+      "system": "hybrid",
+      "bridge": false,
+      "stimulus": "chemotaxis",
+      "plasticity": false,
+      "fwd": 0,
+      "rev": 13,
+      "selectivity": 0,
+      "total": 536,
+      "bridge_spikes": 0,
+      "by_system": {
+        "worm": 536,
+        "fly": 0,
+        "bridge": 0
+      },
+      "latency": 1543.5
+    }
+  ]
+}
